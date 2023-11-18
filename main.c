@@ -5,4 +5,7 @@ void main()
   int sum =0;
   sum = a+b ;
   printf("a+b is %d",sum);
+  if (sum <0）{
+    printf("a or b must be negtive!");
+  }
 }
