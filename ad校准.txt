@@ -1,0 +1,2065 @@
+[20:38:19:624]
+[20:38:20:063]黗菮**狊
+[20:38:20:671]
+[20:38:20:671]
+[20:38:20:671]
+[20:38:20:671]CHIP=best1501p
+[20:38:20:671]KERNEL=RTX5
+[20:38:20:671]CRASH_DUMP_SIZE=0
+[20:38:20:671]AUD_SEC_SIZE=0x10000
+[20:38:20:671]AUD2_SEC_SIZE=0x20000
+[20:38:20:671]USER_SEC_SIZE=0x1000
+[20:38:20:671]FACT_SEC_SIZE=0x1000
+[20:38:20:671]NV_REC_DEV_VER=2
+[20:38:20:671]FLASH_BASE=0x28000000
+[20:38:20:671]FLASH_SIZE=0x400000
+[20:38:20:671]CRC32_OF_IMAGE=0x00000000
+[20:38:20:671]BUILD_DATE=Apr  1 2022 20:37:06
+[20:38:20:671]REV_INFO=2d666e1e87-dirty:best1501p_ibrt_anc
+[20:38:20:671]
+[20:38:20:671]
+[20:38:20:671]------
+[20:38:20:671]METAL_ID: 0
+[20:38:20:671]------
+[20:38:20:671]
+[20:38:20:671]      556/I/MAIN  /  1 | FLASH_ID: 85-60-17
+[20:38:20:671]      556/I/NONE  /  1 | FLASH_CALIB_RESULT:
+[20:38:20:671]<FREQ>
+[20:38:20:671]source_clk=104000000 speed=52000000 flash_max=70000000
+[20:38:20:671]<RATIO>
+[20:38:20:671]std_read=3/8 others=8/8 dtr_read=1/8
+[20:38:20:671]<DIV>
+[20:38:20:671]div=2
+[20:38:20:671]div_read[id]=2 div_std_read[id]=4 div_others[id]=2
+[20:38:20:671]<SAMDLY LIST>
+[20:38:20:671]02 03 04 05 06 07 08 09 
+[20:38:20:671]<CALIB RESULT>
+[20:38:20:671]type=0 idx=00 cnt=03 final=01
+[20:38:20:671]type=1 idx=00 cnt=03 final=01
+[20:38:20:671]	
+[20:38:20:671]      557/I/NONE  /  1 | pmu_dcdc_dig_comp:0
+[20:38:20:671]      557/I/NONE  /  1 | pmu_dcdc_ana_comp:0
+[20:38:20:671]      557/I/NONE  /  1 | pmu_dcdc_hppa_comp:0
+[20:38:20:671]      557/I/NONE  /  1 | pmu_dig_lp_comp:0
+[20:38:20:671]      557/I/NONE  /  1 | pmu_ana_ead=3/8 others=8/8 dtr_read=1/8
+[20:38:20:718]<DIV>
+[20:38:20:718]div=2
+[20:38:20:718]div_read[id]=2 div_std_read[id]=4 div_others[id]=2
+[20:38:20:718]<SAMDLY LIST>
+[20:38:20:718]02 03 04 05 06 07 08 09 
+[20:38:20:718]<CALIB RESULT>
+[20:38:20:718]type=0 idx=00 cnt=03 final=01
+[20:38:20:718]type=1 idx=00 cnt=03 final=01
+[20:38:20:718]	
+[20:38:20:718]      557/I/NONE  /  1 | pmu_dcdc_dig_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_dcdc_ana_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_dcdc_hppa_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_dig_lp_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_ana_lp_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_hppa_lp_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_ldo_dig_l_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_ldo_dig_m_comp:0
+[20:38:20:718]      557/I/NONE  /  1 | pmu_ldo_sensor_comp:0
+[20:38:20:718]      562/I/NONE  /  1 | reg/val:0xd/0x0
+[20:38:20:718]      562/I/NONE  /  1 | efuse invalid, use default val = 0x3F00(10mv)
+[20:38:20:718]      562/I/NONE  /  1 | mic_ch = AUD_CHANNEL_MAP_CH1
+[20:38:20:718]      562/I/NONE  /  1 | reg/val:0xe/0x0
+[20:38:20:718]      562/I/NONE  /  1 | efuse invalid, use default val = 0x3F00(10mv)
+[20:38:20:718]      562/I/NONE  /  1 | mic_ch = AUD_CHANNEL_MAP_CH4
+[20:38:20:718]      562/I/NONE  /  1 | sram start 20042b80 size f360
+[20:38:20:718]      562/I/NONE  /  1 | _sbrk: incr 0 cur=0x200b0498
+[20:38:20:718]
+[20:38:20:718]      562/I/NONE  /  1 | _sbrk: incr 32 cur=0x200b0498
+[20:38:20:718]
+[20:38:20:718]      562/I/AUDFLG/  1 | audio buf size[153600] capture buf size[0] total available space[751720]
+[20:38:20:718]      562/I/NONE  /  1 | please check all sections sizes and heads is correct ........
+[20:38:20:718]      563/I/NONE  /  1 | __aud2_start: 0x283cb000 length: 0x20000
+[20:38:20:718]      563/I/NONE  /  1 | __coredump_section_start: 0x283eb000 length: 0x0
+[20:38:20:718]      563/I/NONE  /  1 | __ota_upgrade_log_start: 0x283eb000 length: 0x0
+[20:38:20:718]      563/I/NONE  /  1 | __log_dump_start: 0x283eb000 length: 0x0
+[20:38:20:718]      563/I/NONE  /  1 | __crash_dump_start: 0x283eb000 length: 0x0
+[20:38:20:718]      563/I/NONE  /  1 | __custom_parameter_start: 0x283eb000 length: 0x1000
+[20:38:20:718]      563/I/NONE  /  1 | __userdata_start: 0x283ec000 length: 0x2000
+[20:38:20:718]      563/I/NONE  /  1 | __aud_start: 0x283ee000 length: 0x10000
+[20:38:20:718]      563/I/NONE  /  1 | __factory_start: 0x283ff000 length: 0x1000
+[20:38:20:718]      563/I/NONE  /  1 | app_init
+[20:38:20:718]
+[20:38:20:718]      563/W/IBRTAP/  1 | [IBRT_TRACE]app_tws_ibrt_bandwidth_table_register 0x20057498
+[20:38:20:718]      563/I/NONE  /  1 | nv ext magic 0xffffffff valid len -1
+[20:38:20:718]      563/I/NONE  /  1 | nv_record_extension_init,main sector is invalid!
+[20:38:20:718]      563/I/NONE  /  1 | nv ext magic 0xffffffff valid len -1
+[20:38:20:718]      563/I/NONE  /  1 | nv_record_extension_init,bak sector is invalid!
+[20:38:20:718]      563/I/NONE  /  1 | nv_record_extension_init,data invalid, rebuild... 
+[20:38:20:718]      563/I/NONE  /  1 | nv_record_extension_init,rebuild crc = 0xb8c17d11. 
+[20:38:20:718]      564/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:20:718]      564/I/NONE  /  1 | nv ext magic 0x4e455854 valid len 1024
+[20:38:20:718]      564/I/NONE  /  1 | generated crc32: 0xb8c17d11, header crc: 0xb8c17d11
+[20:38:20:718]      564/I/NONE  /  1 | Nv extension is valid.
+[20:38:20:718]      564/I/NONE  /  1 | Former nv ext valid len 1024
+[20:38:20:718]      564/I/NONE  /  1 | Current FW version nv ext valid len 1024
+[20:38:20:718]      564/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:20:718]      582/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ec000,len = 0x1000,remain = 1,result = 0.
+[20:38:20:718]      608/I/NONE
+[20:38:20:788]= 0,result = 0.
+[20:38:20:788]      627/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ed000,len = 0x1000,remain = 1,result = 0.
+[20:38:20:788]      652/I/NONE  /  1 | nv_extension_callback:type = 1, addr = 0x283ed000,len = 0x1000,remain = 0,result = 0.
+[20:38:20:788]      652/I/NONE  /  1 | nv_record_extension_init,done.
+[20:38:20:788]      653/I/NONE  /  1 | codec_dac_dc_auto_load: start: open_af=1, reboot=0
+[20:38:20:788]      653/I/NONE  /  1 | codec_dac_dc_load_calib_value: start
+[20:38:20:788]      653/I/NONE  /  1 | cfg=200573d4, nv_cfg=20056ff4, num=2
+[20:38:20:788]      653/I/NONE  /  1 | --------DUMP DAC DC param: NV, cfg=20056ff4--------
+[20:38:20:797]      653/I/NONE  /  1 | valid:        0x0
+[20:38:20:797]      653/I/NONE  /  1 | dc_l:         0x0(0)
+[20:38:20:797]      653/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:20:797]      653/I/NONE  /  1 | ana_dc_l:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | gain_l*1000:  0
+[20:38:20:797]      653/I/NONE  /  1 | gain_r*1000:  0
+[20:38:20:797]      653/I/NONE  /  1 | ana_gain:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | ini_ana_gain: 0x0
+[20:38:20:797]      653/I/NONE  /  1 | gain_offset:  0x0
+[20:38:20:797]      653/I/NONE  /  1 | step_mode:    0x0
+[20:38:20:797]      653/I/NONE  /  1 | top_gain:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | --------DUMP END--------
+[20:38:20:797]      653/I/NONE  /  1 | --------DUMP DAC DC param: NV, cfg=20057014--------
+[20:38:20:797]      653/I/NONE  /  1 | valid:        0x0
+[20:38:20:797]      653/I/NONE  /  1 | dc_l:         0x0(0)
+[20:38:20:797]      653/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:20:797]      653/I/NONE  /  1 | ana_dc_l:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:20:797]      653/I/NONE  /  1 | gain_l*1000:  0
+[20:38:20:797]      653/I/NONE  /  1 | gain_r*1000:  0
+[20:38:20:797]      653/I/NONE  /  1 | ana_gain:     0x0
+[20:38:20:805]      653/I/NONE  /  1 | ini_ana_gain: 0x0
+[20:38:20:805]      653/I/NONE  /  1 | gain_offset:  0x0
+[20:38:20:805]      653/I/NONE  /  1 | step_mode:    0x0
+[20:38:20:805]      653/I/NONE  /  1 | top_gain:     0x0
+[20:38:20:805]      653/I/NONE  /  1 | --------DUMP END--------
+[20:38:20:805]      653/I/NONE  /  1 | codec_dac_dc_load_calib_value: success=0, valid=0, num=2
+[20:38:20:805]      653/I/NONE  /  1 | *** SYSFREQ user=0 freq=6 top_user=12
+[20:38:20:805]      653/I/NONE  /  1 | *** SYSFREQ user=12 freq=6 top_user=12
+[20:38:20:805]      653/I/NONE  /  1 | *** SYSFREQ top_user=12
+[20:38:20:805]      655/I/NONE  /  1 | cpu clock: 96000000
+[20:38:20:805]      655/I/NONE  /  1 | hal_codec_dac_dre_init_calib_cfg: max_gain=0x10
+[20:38:20:805]      655/I/NONE  /  1 | update max_gain:16, ini=0,offs=1,top=15
+[20:38:20:805]      655/I/NONE  /  1 | syspool_init_specific_size: 4096/751720
+[20:38:20:805]      655/I/NONE  /  1 | syspool_init_specific_size: 0x200b1498,0x1000
+[20:38:20:805]      655/I/NONE  /  1 | [syspool_get_buff] ptr=0x200b1498 size=4096 free=4096 user=0xc0d5495
+
+/*函数调用解析
+codec_dac_dc_auto_load
+	codec_dac_dc_do_calib
+		af_codec_calib_dac_dc
+
+*/
+[20:38:20:805]      655/I/NONE  /  1 | 
+[20:38:20:805]OPEN CALIB STREAM
+[20:38:20:805]
+[20:38:20:805]      655/I/NONE  /  1 | playback stream: play_buf=200b1498, play_buf_len=1920
+[20:38:20:812]      655/I/NONE  /  1 | capture  stream: cap_buf=200b1c18,  cap_buf_len=1536
+[20:38:20:812]      655/I/NONE  /  1 | [af_stream_open] id = 0, stream = 0
+[20:38:20:812]      655/I/NONE  /  1 | codec_int_open: user_map=0x0
+[20:38:20:812]      655/I/NONE  /  1 | codec_hw_open
+[20:38:20:812]      657/I/NONE  /  1 | CALIB_ANA_DC: L=0x0, R=0x0, gain=0x10
+[20:38:20:812]      657/I/NONE  /  1 | CALIB_DIG_DC: L=0x0, R=0x0
+[20:38:20:812]      657/I/NONE  /  1 | codec_int_stream_open: stream=0
+[20:38:20:812]      657/I/NONE  /  1 | [af_stream_setup] id = 0, stream = 0
+[20:38:20:812]      657/I/NONE  /  1 | codec_int_stream_setup: stream=0
+[20:38:20:812]      657/I/NONE  /  1 | [sample_rate]old=0 new=48000
+[20:38:20:812]      657/I/NONE  /  1 | [bits]old=0 new=16
+[20:38:20:812]      657/I/NONE  /  1 | [channel_num]old=0 new=2
+[20:38:20:812]      657/I/NONE  /  1 | [channel_map]old=0x0 new=0x3
+[20:38:20:812]      658/I/NONE  /  1 | [use_dma]old=0 new=1
+[20:38:20:812]      658/I/NONE  /  1 | [codec_int_stream_setup]stream=0 set_flag=0xff
+[20:38:20:812]      658/I/NONE  /  1 | [hal_codec_setup_stream] playback sample_rate=48000
+[20:38:20:812]      658/I/NONE  /  1 | output_gain_change da1:00000000
+[20:38:20:812]      658/I/NONE  /  1 | [af_stream_open] id = 0, stream = 1
+[20:38:20:812]      658/I/NONE  /  1 | codec_int_open: user_map=0x1
+[20:38:20:812]      658/I/NONE  /  1 | codec_int_stream_open: stream=1
+[20:38:20:812]      658/I/NONE  /  1 | [af_stream_setup] id = 0, stream = 1
+[20:38:20:812]      658/I/NONE  /  1 | codec_int_stream_setup: stream=1
+[20:38:20:812]      658/I/NONE  /  1 | [sample_rate]old=0 new=48000
+[20:38:20:812]      658/I/NONE  /  1 | [bits]old=0 new=24
+[20:38:20:812]      658/I/NONE  /  1 | [channel_num]old=0 new=2
+[20:38:20:812]      658/I/NONE  /  1 | [channel_map]old=0x0 new=0x6
+[20:38:20:812]      658/I/NONE  /  1 | [use_dma]old=0 new=1
+[20:38:20:812]      658/I/NONE  /  1 | [io_path]old=0 new=1
+[20:38:20:812]      658/I/NONE  /  1 | [codec_int_stream_setup]stream=1 set_flag=0xff
+[20:38:20:812]      658/I/NONE  /  1 | [hal_codec_setup_stream] capture sample_rate=48000
+[20:38:20:812]      658/I/NONE  /  1 | codec_int_stream_set_chan_vol: stream=1 ch_map=0x6 vol=0
+[20:38:20:812]
+[20:38:21:204]     1062/I/NONE  /  1 | [af_stream_start] id = 0, stream = 0
+[20:38:21:204]     1062/I/NONE  /  1 | codec_int_stream_start: stream=0
+[20:38:21:204]     1062/I/NONE  /  1 | codec_hw_start: stream=0
+[20:38:21:204]     1071/I/NONE  /  1 | [af_stream_start] id = 0, stream = 1
+[20:38:21:204]     1071/I/NONE  /  1 | codec_int_stream_start: stream=1
+[20:38:21:204]     1071/I/NONE  /  1 | need_ldo_on_cnt:2 reg_val_mic_bias_b:2324
+[20:38:21:204]     1071/I/NONE  /  1 | bias_ldo_on :002a val:2334
+[20:38:21:204]     1072/I/NONE  /  1 | codec_hw_start: stream=1
+[20:38:21:204]     1072/I/NONE  /  1 | codec_int_stream_set_chan_vol: stream=1 ch_map=0x6 vol=0
+[20:38:21:204]
+[20:38:21:620]     1476/I/NONE  /  1 | 
+[20:38:21:620]ADC only
+[20:38:21:620]
+[20:38:21:620]
+[20:38:21:964]     1489/I/NONE  /  1 | Dac dc_l=-68713 dc_r=-3979 cnt=384
+[20:38:21:964]     1489/I/NONE  /  1 | 
+[20:38:21:964]DAC TO ADC
+[20:38:21:964]
+[20:38:21:964]     1489/I/NONE  /  1 | comp_gate_l=5, comp_gate_r=5
+[20:38:21:964]     1489/I/NONE  /  1 | 
+[20:38:21:964]SET LARGE ANA DC
+[20:38:21:964]
+[20:38:21:964]     1489/I/NONE  /  1 | dc_target_l=-68713,dc_target_r=-3979
+[20:38:21:964]     1489/I/NONE  /  1 | ANA_DC init: ana_dc_l=512,ana_dc_r=0
+[20:38:21:964]     1504/I/NONE  /  1 | Dac dc_l=-75774 dc_r=-4068 cnt=384
+[20:38:21:964]     1504/I/NONE  /  1 | ====>Final ana_dc_l=512, ana_dc_r=0
+[20:38:21:964]     1504/I/NONE  /  1 | 
+[20:38:21:964]ADC only
+[20:38:21:964]
+[20:38:21:964]     1515/I/NONE  /  1 | Dac dc_l=-68735 dc_r=-4152 cnt=384
+[20:38:21:964]     1515/I/NONE  /  1 | 
+[20:38:21:964]DAC TO ADC
+[20:38:21:964]
+[20:38:21:964]     1515/I/NONE  /  1 | comp_gate_l=50, comp_gate_r=50
+[20:38:21:964]     1515/I/NONE  /  1 | 
+[20:38:21:964]SET LARGE ANA DC
+[20:38:21:964]
+[20:38:21:964]     1515/I/NONE  /  1 | dc_target_l=-68735,dc_target_r=-4152
+[20:38:21:964]     1515/I/NONE  /  1 | ANA_DC init: ana_dc_l=512,ana_dc_r=0
+[20:38:21:964]     1528/I/NONE  /  1 | Dac dc_l=-70283 dc_r=-4215 cnt=384
+[20:38:21:964]     1528/I/NONE  /  1 | ANA_DC[0]: ana_dc_l=8832,ana_dc_r=0,dc_l=-70283,dc_r=-4215
+[20:38:21:964]     1543/I/NONE  /  1 | Dac dc_l=-69351 dc_r=-4239 cnt=384
+[20:38:21:964]     1543/I/NONE  /  1 | ANA_DC[1]: ana_dc_l=8960,ana_dc_r=0,dc_l=-69351,dc_r=-4239
+[20:38:21:964]     1558/I/NONE  /  1 | Dac dc_l=-69226 dc_r=-4315 cnt=384
+[20:38:21:964]     1558/I/NONE  /  1 | ANA_DC[2]: ana_dc_l=9088,ana_dc_r=0,dc_l=-69226,dc_r=-4315
+[20:38:21:964]     1573/I/NONE  /  1 | Dac dc_l=-69059 dc_r=-4302 cnt=384
+[20:38:21:964]     1573/I/NONE  /  1 | ANA_DC[3]: ana_dc_l=9216,ana_dc_r=0,dc_l=-69059,dc_r=-4302
+[20:38:21:964]     1588/I/NONE  /  1 | Dac dc_l=-69384 dc_r=-4382 cnt=384
+[20:38:21:964]     1588/I/NONE  /  1 | ANA_DC[4]: ana_dc_l=9344,ana_dc_r=0,dc_l=-69384,dc_r=-4382
+[20:38:21:964]     1603/I/NONE  /  1 | Dac dc_l=-69390 dc_r=-4443 cnt=384
+[20:38:21:964]     1603/I/NONE  /  1 | ANA_DC[5]: ana_dc_l=9472,ana_dc_r=0,dc_l=-69390,dc_r=-4443
+[20:38:21:964]     1618/I/NONE  /  1 | Dac dc_l=-69219 dc_r=-4463 cnt=384
+[20:38:21:964]     1618/I/NONE  /  1 | ANA_DC[6]: ana_dc_l=9600,ana_dc_r=0,dc_l=-69219,dc_r=-4463
+[20:38:21:964]     1633/I/NONE  /  1 | Dac dc_l=-69197 dc_r=-4535 cnt=384
+[20:38:21:964]     1633/I/NONE  /  1 | ANA_DC[7]: ana_dc_l=9728,ana_dc_r=0,dc_l=-69197,dc_r=-4535
+[20:38:21:964]     1646/I/NONE  /  1 | Dac dc_l=-69069 dc_r=-4583 cnt=384
+[20:38:21:964]     1646/I/NONE  /  1 | ANA_DC[8]: ana_dc_l=9856,ana_dc_r=0,dc_l=-69069,dc_r=-4583
+[20:38:21:964]     1659/I/NONE  /  1 | Dac dc_l=-68937 dc_r=-4605 cnt=384
+[20:38:21:964]     1659/I/NONE  /  1 | ANA_DC[9]: ana_dc_l=9984,ana_dc_r=0,dc_l=-68937,dc_r=-4605
+[20:38:21:964]     1674/I/NONE  /  1 | Dac dc_l=-68810 dc_r=-4649 cnt=384
+[20:38:21:964]     1674/I/NONE  /  1 | ANA_DC[10]: ana_dc_l=10112,ana_dc_r=0,dc_l=-68810,dc_r=-4649
+[20:38:21:964]     1689/I/NONE  /  1 | Dac dc_l=-68672 dc_r=-4634 cnt=384
+[20:38:21:964]     1689/I/NONE  /  1 | ANA_DC[11]: ana_dc_l=10240,ana_dc_r=0,dc_l=-68672,dc_r=-4634
+[20:38:21:964]     1704/I/NONE  /  1 | Dac dc_l=-69030 dc_r=-4685 cnt=384
+[20:38:21:964]     1704/I/NONE  /  1 | ANA_DC[12]: ana_dc_l=10368,ana_dc_r=0,dc_l=-69030,dc_r=-4685
+[20:38:21:964]     1719/I/NONE  /  1 | Dac dc_l=-68962 dc_r=-4730 cnt=384
+[20:38:21:964]     1719/I/NONE  /  1 | ANA_DC[13]: ana_dc_l=10496,ana_dc_r=0,dc_l=-68962,dc_r=-4730
+[20:38:21:964]     1734/I/NONE  /  1 | Dac dc_l=-68838 dc_r=-4771 cnt=384
+[20:38:21:964]     1734/I/NONE  /  1 | ANA_DC[14]: ana_dc_l=10624,ana_dc_r=0,dc_l=-68838,dc_r=-4771
+[20:38:21:964]     1749/I/NONE  /  1 | Dac dc_l=-68814 dc_r=-4763 cnt=384
+[20:38:21:964]     1749/I/NONE  /  1 | ANA_DC[15]: ana_dc_l=10752,ana_dc_r=0,dc_l=-68814,dc_r=-4763
+[20:38:21:964]     1764/I/NONE  /  1 | Dac dc_l=-68672 dc_r=-4834 cnt=384
+[20:38:21:964]     1764/I/NONE  /  1 | ANA_DC[16]: ana_dc_l=10880,ana_dc_r=0,dc_l=-68672,dc_r=-4834
+[20:38:21:964]     1777/I/NONE  /  1 | Dac dc_l=-68629 dc_r=-4938 cnt=384
+[20:38:21:964]     1777/I/NONE  /  1 | ANA_DC[17]: ana_dc_l=11008,ana_dc_r=0,dc_l=-68629,dc_r=-4938
+[20:38:21:964]     1790/I/NONE  /  1 | Dac dc_l=-68502 dc_r=-4891 cnt=384
+[20:38:21:964]     1790/I/NONE  /  1 | ANA_DC[18]: ana_dc_l=11136,ana_dc_r=0,dc_l=-68502,dc_r=-4891
+[20:38:21:964]     1805/I/NONE  /  1 | Dac dc_l=-68418 dc_r=-4891 cnt=384
+[20:38:21:964]     1805/I/NONE  /  1 | ANA_DC[19]: ana_dc_l=11264,ana_dc_r=0,dc_l=-68418,dc_r=-4891
+[20:38:21:964]     1805/I/NONE  /  1 | ====>Final ana_dc_l=11264, ana_dc_r=0
+[20:38:21:964]     1805/I/NONE  /  1 | AUTO CALIB ANA DAC DC: ana_gain=16, L=0x2C00 R=0x0000, ret=0
+[20:38:21:964]     1805/I/NONE  /  1 | AUTO CALIB ANA DAC DC: ana_gain=1, L=0x2C00 R=0x0000, ret=0
+[20:38:21:964]     1805/I/NONE  /  1 | 
+[20:38:21:964]ADC only
+[20:38:21:964]
+[20:38:22:238]
+[20:38:22:238]     1818/I/NONE  /  1 | Dac dc_l=-68692 dc_r=-4824 cnt=384
+[20:38:22:238]     1818/I/NONE  /  1 | 
+[20:38:22:238]DAC TO ADC
+[20:38:22:238]
+[20:38:22:238]     1818/I/NONE  /  1 | comp_gate_l=5, comp_gate_r=5
+[20:38:22:238]     1818/I/NONE  /  1 | 
+[20:38:22:238]SET ANA DC
+[20:38:22:238]
+[20:38:22:238]     1818/I/NONE  /  1 | cal_dac_ana_dc_l=0x2c00, cal_dac_ana_dc_r=0x0
+[20:38:22:238]     1818/I/NONE  /  1 | 
+[20:38:22:238]CALIB DIG DC
+[20:38:22:238]
+[20:38:22:238]     1833/I/NONE  /  1 | Dac dc_l=-57233 dc_r=-4904 cnt=384
+[20:38:22:238]     1833/I/NONE  /  1 | [0] comp_l=-11459 comp_r=0
+[20:38:22:238]     1833/I/NONE  /  1 | [0] val_l=0xFFFFD33D val_r=0x00000000 diff_l=-11459 diff_r=0
+[20:38:22:238]     1848/I/NONE  /  1 | Dac dc_l=-62901 dc_r=-4916 cnt=384
+[20:38:22:238]     1848/I/NONE  /  1 | [1] comp_l=-5791 comp_r=0
+[20:38:22:238]     1848/I/NONE  /  1 | [1] val_l=0xFFFFBC9E val_r=0x00000000 diff_l=-17250 diff_r=0
+[20:38:22:238]     1863/I/NONE  /  1 | Dac dc_l=-65792 dc_r=-4952 cnt=384
+[20:38:22:238]     1863/I/NONE  /  1 | [2] comp_l=-2900 comp_r=0
+[20:38:22:238]     1863/I/NONE  /  1 | [2] val_l=0xFFFFB14A val_r=0x00000000 diff_l=-20150 diff_r=0
+[20:38:22:238]     1878/I/NONE  /  1 | Dac dc_l=-67240 dc_r=-4903 cnt=384
+[20:38:22:238]     1878/I/NONE  /  1 | [3] comp_l=-1452 comp_r=0
+[20:38:22:238]     1878/I/NONE  /  1 | [3] val_l=0xFFFFAB9E val_r=0x00000000 diff_l=-21602 diff_r=0
+[20:38:22:238]     1893/I/NONE  /  1 | Dac dc_l=-67868 dc_r=-4937 cnt=384
+[20:38:22:238]     1893/I/NONE  /  1 | [4] comp_l=-824 comp_r=0
+[20:38:22:238]     1893/I/NONE  /  1 | [4] val_l=0xFFFFA866 val_r=0x00000000 diff_l=-22426 diff_r=0
+[20:38:22:238]     1906/I/NONE  /  1 | Dac dc_l=-68287 dc_r=-4925 cnt=384
+[20:38:22:238]     1906/I/NONE  /  1 | [5] comp_l=-405 comp_r=0
+[20:38:22:238]     1906/I/NONE  /  1 | [5] val_l=0xFFFFA6D1 val_r=0x00000000 diff_l=-22831 diff_r=0
+[20:38:22:238]     1921/I/NONE  /  1 | Dac dc_l=-68442 dc_r=-4949 cnt=480
+[20:38:22:238]     1921/I/NONE  /  1 | [6] comp_l=-250 comp_r=0
+[20:38:22:238]     1921/I/NONE  /  1 | [6] val_l=0xFFFFA5D7 val_r=0x00000000 diff_l=-23081 diff_r=0
+[20:38:22:238]     1936/I/NONE  /  1 | Dac dc_l=-68543 dc_r=-5088 cnt=384
+[20:38:22:238]     1936/I/NONE  /  1 | [7] comp_l=-149 comp_r=0
+[20:38:22:238]     1936/I/NONE  /  1 | [7] val_l=0xFFFFA542 val_r=0x00000000 diff_l=-23230 diff_r=0
+[20:38:22:238]     1951/I/NONE  /  1 | Dac dc_l=-68655 dc_r=-5111 cnt=384
+[20:38:22:238]     1951/I/NONE  /  1 | [8] comp_l=-37 comp_r=0
+[20:38:22:238]     1951/I/NONE  /  1 | [8] val_l=0xFFFFA51D val_r=0x00000000 diff_l=-23267 diff_r=0
+[20:38:22:238]     1966/I/NONE  /  1 | Dac dc_l=-68720 dc_r=-5157 cnt=384
+[20:38:22:238]     1966/I/NONE  /  1 | [9] comp_l=28 comp_r=0
+[20:38:22:238]     1966/I/NONE  /  1 | [9] val_l=0xFFFFA539 val_r=0x00000000 diff_l=-23239 diff_r=0
+[20:38:22:238]     1981/I/NONE  /  1 | Dac dc_l=-68706 dc_r=-5139 cnt=384
+[20:38:22:238]     1981/I/NONE  /  1 | [10] comp_l=14 comp_r=0
+[20:38:22:238]     1981/I/NONE  /  1 | [10] val_l=0xFFFFA547 val_r=0x00000000 diff_l=-23225 diff_r=0
+[20:38:22:238]     1996/I/NONE  /  1 | Dac dc_l=-68768 dc_r=-5179 cnt=384
+[20:38:22:238]     1996/I/NONE  /  1 | [11] comp_l=76 comp_r=0
+[20:38:22:238]     1996/I/NONE  /  1 | [11] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     1996/I/NONE  /  1 | [11] val_l=0xFFFFA548 val_r=0x00000000 diff_l=-23224 diff_r=0
+[20:38:22:238]     2011/I/NONE  /  1 | Dac dc_l=-68738 dc_r=-5115 cnt=384
+[20:38:22:238]     2011/I/NONE  /  1 | [12] comp_l=46 comp_r=0
+[20:38:22:238]     2011/I/NONE  /  1 | [12] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     2011/I/NONE  /  1 | [12] val_l=0xFFFFA549 val_r=0x00000000 diff_l=-23223 diff_r=0
+[20:38:22:238]     2026/I/NONE  /  1 | Dac dc_l=-68738 dc_r=-5137 cnt=384
+[20:38:22:238]     2026/I/NONE  /  1 | [13] comp_l=46 comp_r=0
+[20:38:22:238]     2026/I/NONE  /  1 | [13] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     2026/I/NONE  /  1 | [13] val_l=0xFFFFA54A val_r=0x00000000 diff_l=-23222 diff_r=0
+[20:38:22:238]     2039/I/NONE  /  1 | Dac dc_l=-68782 dc_r=-5110 cnt=384
+[20:38:22:238]     2039/I/NONE  /  1 | [14] comp_l=90 comp_r=0
+[20:38:22:238]     2039/I/NONE  /  1 | [14] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     2039/I/NONE  /  1 | [14] val_l=0xFFFFA54B val_r=0x00000000 diff_l=-23221 diff_r=0
+[20:38:22:238]     2052/I/NONE  /  1 | Dac dc_l=-68775 dc_r=-5121 cnt=384
+[20:38:22:238]     2052/I/NONE  /  1 | [15] comp_l=83 comp_r=0
+[20:38:22:238]     2052/I/NONE  /  1 | [15] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     2052/I/NONE  /  1 | [15] val_l=0xFFFFA54C val_r=0x00000000 diff_l=-23220 diff_r=0
+[20:38:22:238]     2067/I/NONE  /  1 | Dac dc_l=-68748 dc_r=-5199 cnt=384
+[20:38:22:238]     2067/I/NONE  /  1 | [16] comp_l=56 comp_r=0
+[20:38:22:238]     2067/I/NONE  /  1 | [16] ERROR: comp_l too large -- reset to 1
+[20:38:22:238]     2067/I
+[20:38:22:474]/NONE  /  1 | [16] val_l=0xFFFFA54D val_r=0x00000000 diff_l=-23219 diff_r=0
+[20:38:22:474]     2082/I/NONE  /  1 | Dac dc_l=-68765 dc_r=-5252 cnt=384
+[20:38:22:474]     2082/I/NONE  /  1 | [17] comp_l=73 comp_r=0
+[20:38:22:474]     2082/I/NONE  /  1 | [17] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2082/I/NONE  /  1 | [17] val_l=0xFFFFA54E val_r=0x00000000 diff_l=-23218 diff_r=0
+[20:38:22:474]     2097/I/NONE  /  1 | Dac dc_l=-68820 dc_r=-5220 cnt=384
+[20:38:22:474]     2097/I/NONE  /  1 | [18] comp_l=128 comp_r=0
+[20:38:22:474]     2097/I/NONE  /  1 | [18] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2097/I/NONE  /  1 | [18] val_l=0xFFFFA54F val_r=0x00000000 diff_l=-23217 diff_r=0
+[20:38:22:474]     2112/I/NONE  /  1 | Dac dc_l=-68786 dc_r=-5159 cnt=384
+[20:38:22:474]     2112/I/NONE  /  1 | [19] comp_l=94 comp_r=0
+[20:38:22:474]     2112/I/NONE  /  1 | [19] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2112/I/NONE  /  1 | [19] val_l=0xFFFFA550 val_r=0x00000000 diff_l=-23216 diff_r=0
+[20:38:22:474]     2127/I/NONE  /  1 | Dac dc_l=-68793 dc_r=-5190 cnt=384
+[20:38:22:474]     2127/I/NONE  /  1 | [20] comp_l=101 comp_r=0
+[20:38:22:474]     2127/I/NONE  /  1 | [20] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2127/I/NONE  /  1 | [20] val_l=0xFFFFA551 val_r=0x00000000 diff_l=-23215 diff_r=0
+[20:38:22:474]     2142/I/NONE  /  1 | Dac dc_l=-68752 dc_r=-5271 cnt=384
+[20:38:22:474]     2142/I/NONE  /  1 | [21] comp_l=60 comp_r=0
+[20:38:22:474]     2142/I/NONE  /  1 | [21] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2142/I/NONE  /  1 | [21] val_l=0xFFFFA552 val_r=0x00000000 diff_l=-23214 diff_r=0
+[20:38:22:474]     2157/I/NONE  /  1 | Dac dc_l=-68791 dc_r=-5242 cnt=384
+[20:38:22:474]     2157/I/NONE  /  1 | [22] comp_l=99 comp_r=0
+[20:38:22:474]     2157/I/NONE  /  1 | [22] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2157/I/NONE  /  1 | [22] val_l=0xFFFFA553 val_r=0x00000000 diff_l=-23213 diff_r=0
+[20:38:22:474]     2170/I/NONE  /  1 | Dac dc_l=-68744 dc_r=-5200 cnt=384
+[20:38:22:474]     2170/I/NONE  /  1 | [23] comp_l=52 comp_r=0
+[20:38:22:474]     2170/I/NONE  /  1 | [23] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2170/I/NONE  /  1 | [23] val_l=0xFFFFA554 val_r=0x00000000 diff_l=-23212 diff_r=0
+[20:38:22:474]     2183/I/NONE  /  1 | Dac dc_l=-68765 dc_r=-5201 cnt=384
+[20:38:22:474]     2183/I/NONE  /  1 | [24] comp_l=73 comp_r=0
+[20:38:22:474]     2183/I/NONE  /  1 | [24] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2183/I/NONE  /  1 | [24] val_l=0xFFFFA555 val_r=0x00000000 diff_l=-23211 diff_r=0
+[20:38:22:474]     2198/I/NONE  /  1 | Dac dc_l=-68789 dc_r=-5257 cnt=384
+[20:38:22:474]     2198/I/NONE  /  1 | [25] comp_l=97 comp_r=0
+[20:38:22:474]     2198/I/NONE  /  1 | [25] ERROR: comp_l too large -- reset to 1
+[20:38:22:474]     2198/I/NONE  /  1 | [25] val_l=0xFFFFA556 val_r=0x00000000 diff_l=-23210 diff_r=0
+[20:38:22:474]     2213/I/NONE  /  1 | Dac dc_l=-68768 dc_r=-5183 cnt=384
+[20:38:22:474]     2213/I/NONE  /  1 | [26] comp_l=76 comp_r=0
+[20:38:22:489]     2213/I/NONE  /  1 | [26] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2213/I/NONE  /  1 | [26] val_l=0xFFFFA557 val_r=0x00000000 diff_l=-23209 diff_r=0
+[20:38:22:489]     2228/I/NONE  /  1 | Dac dc_l=-68756 dc_r=-5210 cnt=384
+[20:38:22:489]     2228/I/NONE  /  1 | [27] comp_l=64 comp_r=0
+[20:38:22:489]     2228/I/NONE  /  1 | [27] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2228/I/NONE  /  1 | [27] val_l=0xFFFFA558 val_r=0x00000000 diff_l=-23208 diff_r=0
+[20:38:22:489]     2243/I/NONE  /  1 | Dac dc_l=-68713 dc_r=-5262 cnt=384
+[20:38:22:489]     2243/I/NONE  /  1 | [28] comp_l=21 comp_r=0
+[20:38:22:489]     2243/I/NONE  /  1 | [28] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2243/I/NONE  /  1 | [28] val_l=0xFFFFA559 val_r=0x00000000 diff_l=-23207 diff_r=0
+[20:38:22:489]     2258/I/NONE  /  1 | Dac dc_l=-68855 dc_r=-5294 cnt=384
+[20:38:22:489]     2258/I/NONE  /  1 | [29] comp_l=163 comp_r=0
+[20:38:22:489]     2258/I/NONE  /  1 | [29] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2258/I/NONE  /  1 | [29] val_l=0xFFFFA55A val_r=0x00000000 diff_l=-23206 diff_r=0
+[20:38:22:489]     2273/I/NONE  /  1 | Dac dc_l=-68809 dc_r=-5336 cnt=384
+[20:38:22:489]     2273/I/NONE  /  1 | [30] comp_l=117 comp_r=0
+[20:38:22:489]     2273/I/NONE  /  1 | [30] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2273/I/NONE  /  1 | [30] val_l=0xFFFFA55B val_r=0x00000000 diff_l=-23205 diff_r=0
+[20:38:22:489]     2288/I/NONE  /  1 | Dac dc_l=-68818 dc_r=-5275 cnt=384
+[20:38:22:489]     2288/I/NONE  /  1 | [31] comp_l=126 comp_r=0
+[20:38:22:489]     2288/I/NONE  /  1 | [31] ERROR: comp_l too large -- reset to 1
+[20:38:22:489]     2288/I/NO
+[20:38:22:702]NE  /  1 | [31] val_l=0xFFFFA55C val_r=0x00000000 diff_l=-23204 diff_r=0
+[20:38:22:702]     2301/I/NONE  /  1 | Dac dc_l=-68865 dc_r=-5297 cnt=384
+[20:38:22:702]     2301/I/NONE  /  1 | [32] comp_l=173 comp_r=0
+[20:38:22:702]     2301/I/NONE  /  1 | [32] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2301/I/NONE  /  1 | [32] val_l=0xFFFFA55D val_r=0x00000000 diff_l=-23203 diff_r=0
+[20:38:22:702]     2316/I/NONE  /  1 | Dac dc_l=-68899 dc_r=-5321 cnt=480
+[20:38:22:702]     2316/I/NONE  /  1 | [33] comp_l=207 comp_r=0
+[20:38:22:702]     2316/I/NONE  /  1 | [33] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2316/I/NONE  /  1 | [33] val_l=0xFFFFA55E val_r=0x00000000 diff_l=-23202 diff_r=0
+[20:38:22:702]     2331/I/NONE  /  1 | Dac dc_l=-68905 dc_r=-5366 cnt=384
+[20:38:22:702]     2331/I/NONE  /  1 | [34] comp_l=213 comp_r=0
+[20:38:22:702]     2331/I/NONE  /  1 | [34] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2331/I/NONE  /  1 | [34] val_l=0xFFFFA55F val_r=0x00000000 diff_l=-23201 diff_r=0
+[20:38:22:702]     2346/I/NONE  /  1 | Dac dc_l=-68864 dc_r=-5363 cnt=384
+[20:38:22:702]     2346/I/NONE  /  1 | [35] comp_l=172 comp_r=0
+[20:38:22:702]     2346/I/NONE  /  1 | [35] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2346/I/NONE  /  1 | [35] val_l=0xFFFFA560 val_r=0x00000000 diff_l=-23200 diff_r=0
+[20:38:22:702]     2361/I/NONE  /  1 | Dac dc_l=-68788 dc_r=-5361 cnt=384
+[20:38:22:702]     2361/I/NONE  /  1 | [36] comp_l=96 comp_r=0
+[20:38:22:702]     2361/I/NONE  /  1 | [36] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2361/I/NONE  /  1 | [36] val_l=0xFFFFA561 val_r=0x00000000 diff_l=-23199 diff_r=0
+[20:38:22:702]     2376/I/NONE  /  1 | Dac dc_l=-68860 dc_r=-5372 cnt=384
+[20:38:22:702]     2376/I/NONE  /  1 | [37] comp_l=168 comp_r=0
+[20:38:22:702]     2376/I/NONE  /  1 | [37] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2376/I/NONE  /  1 | [37] val_l=0xFFFFA562 val_r=0x00000000 diff_l=-23198 diff_r=0
+[20:38:22:702]     2391/I/NONE  /  1 | Dac dc_l=-68849 dc_r=-5400 cnt=384
+[20:38:22:702]     2391/I/NONE  /  1 | [38] comp_l=157 comp_r=0
+[20:38:22:702]     2391/I/NONE  /  1 | [38] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2391/I/NONE  /  1 | [38] val_l=0xFFFFA563 val_r=0x00000000 diff_l=-23197 diff_r=0
+[20:38:22:702]     2406/I/NONE  /  1 | Dac dc_l=-68830 dc_r=-5394 cnt=384
+[20:38:22:702]     2406/I/NONE  /  1 | [39] comp_l=138 comp_r=0
+[20:38:22:702]     2406/I/NONE  /  1 | [39] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2406/I/NONE  /  1 | [39] val_l=0xFFFFA564 val_r=0x00000000 diff_l=-23196 diff_r=0
+[20:38:22:702]     2421/I/NONE  /  1 | Dac dc_l=-68882 dc_r=-5391 cnt=384
+[20:38:22:702]     2421/I/NONE  /  1 | [40] comp_l=190 comp_r=0
+[20:38:22:702]     2421/I/NONE  /  1 | [40] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2421/I/NONE  /  1 | [40] val_l=0xFFFFA565 val_r=0x00000000 diff_l=-23195 diff_r=0
+[20:38:22:702]     2434/I/NONE  /  1 | Dac dc_l=-68827 dc_r=-5379 cnt=384
+[20:38:22:702]     2434/I/NONE  /  1 | [41] comp_l=135 comp_r=0
+[20:38:22:702]     2434/I/NONE  /  1 | [41] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2434/I/NONE  /  1 | [41] val_l=0xFFFFA566 val_r=0x00000000 diff_l=-23194 diff_r=0
+[20:38:22:702]     2447/I/NONE  /  1 | Dac dc_l=-68825 dc_r=-5387 cnt=384
+[20:38:22:702]     2447/I/NONE  /  1 | [42] comp_l=133 comp_r=0
+[20:38:22:702]     2447/I/NONE  /  1 | [42] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2447/I/NONE  /  1 | [42] val_l=0xFFFFA567 val_r=0x00000000 diff_l=-23193 diff_r=0
+[20:38:22:702]     2462/I/NONE  /  1 | Dac dc_l=-68791 dc_r=-5360 cnt=384
+[20:38:22:702]     2462/I/NONE  /  1 | [43] comp_l=99 comp_r=0
+[20:38:22:702]     2462/I/NONE  /  1 | [43] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2462/I/NONE  /  1 | [43] val_l=0xFFFFA568 val_r=0x00000000 diff_l=-23192 diff_r=0
+[20:38:22:702]     2477/I/NONE  /  1 | Dac dc_l=-68823 dc_r=-5382 cnt=384
+[20:38:22:702]     2477/I/NONE  /  1 | [44] comp_l=131 comp_r=0
+[20:38:22:702]     2477/I/NONE  /  1 | [44] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2477/I/NONE  /  1 | [44] val_l=0xFFFFA569 val_r=0x00000000 diff_l=-23191 diff_r=0
+[20:38:22:702]     2492/I/NONE  /  1 | Dac dc_l=-68826 dc_r=-5427 cnt=384
+[20:38:22:702]     2492/I/NONE  /  1 | [45] comp_l=134 comp_r=0
+[20:38:22:702]     2492/I/NONE  /  1 | [45] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2492/I/NONE  /  1 | [45] val_l=0xFFFFA56A val_r=0x00000000 diff_l=-23190 diff_r=0
+[20:38:22:702]     2507/I/NONE  /  1 | Dac dc_l=-68892 dc_r=-5443 cnt=384
+[20:38:22:702]     2507/I/NONE  /  1 | [46] comp_l=200 comp_r=0
+[20:38:22:702]     2507/I/NONE  /  1 | [46] ERROR: comp_l too large -- reset to 1
+[20:38:22:702]     2507
+[20:38:22:930]/I/NONE  /  1 | [46] val_l=0xFFFFA56B val_r=0x00000000 diff_l=-23189 diff_r=0
+[20:38:22:930]     2522/I/NONE  /  1 | Dac dc_l=-68859 dc_r=-5477 cnt=384
+[20:38:22:930]     2522/I/NONE  /  1 | [47] comp_l=167 comp_r=0
+[20:38:22:930]     2522/I/NONE  /  1 | [47] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2522/I/NONE  /  1 | [47] val_l=0xFFFFA56C val_r=0x00000000 diff_l=-23188 diff_r=0
+[20:38:22:930]     2537/I/NONE  /  1 | Dac dc_l=-68772 dc_r=-5378 cnt=384
+[20:38:22:930]     2537/I/NONE  /  1 | [48] comp_l=80 comp_r=0
+[20:38:22:930]     2537/I/NONE  /  1 | [48] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2537/I/NONE  /  1 | [48] val_l=0xFFFFA56D val_r=0x00000000 diff_l=-23187 diff_r=0
+[20:38:22:930]     2552/I/NONE  /  1 | Dac dc_l=-68773 dc_r=-5413 cnt=384
+[20:38:22:930]     2552/I/NONE  /  1 | [49] comp_l=81 comp_r=0
+[20:38:22:930]     2552/I/NONE  /  1 | [49] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2552/I/NONE  /  1 | [49] val_l=0xFFFFA56E val_r=0x00000000 diff_l=-23186 diff_r=0
+[20:38:22:930]     2565/I/NONE  /  1 | Dac dc_l=-68780 dc_r=-5381 cnt=384
+[20:38:22:930]     2565/I/NONE  /  1 | [50] comp_l=88 comp_r=0
+[20:38:22:930]     2565/I/NONE  /  1 | [50] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2565/I/NONE  /  1 | [50] val_l=0xFFFFA56F val_r=0x00000000 diff_l=-23185 diff_r=0
+[20:38:22:930]     2578/I/NONE  /  1 | Dac dc_l=-68884 dc_r=-5354 cnt=384
+[20:38:22:930]     2578/I/NONE  /  1 | [51] comp_l=192 comp_r=0
+[20:38:22:930]     2578/I/NONE  /  1 | [51] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2578/I/NONE  /  1 | [51] val_l=0xFFFFA570 val_r=0x00000000 diff_l=-23184 diff_r=0
+[20:38:22:930]     2593/I/NONE  /  1 | Dac dc_l=-68788 dc_r=-5367 cnt=384
+[20:38:22:930]     2593/I/NONE  /  1 | [52] comp_l=96 comp_r=0
+[20:38:22:930]     2593/I/NONE  /  1 | [52] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2593/I/NONE  /  1 | [52] val_l=0xFFFFA571 val_r=0x00000000 diff_l=-23183 diff_r=0
+[20:38:22:930]     2608/I/NONE  /  1 | Dac dc_l=-68804 dc_r=-5377 cnt=384
+[20:38:22:930]     2608/I/NONE  /  1 | [53] comp_l=112 comp_r=0
+[20:38:22:930]     2608/I/NONE  /  1 | [53] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2608/I/NONE  /  1 | [53] val_l=0xFFFFA572 val_r=0x00000000 diff_l=-23182 diff_r=0
+[20:38:22:930]     2623/I/NONE  /  1 | Dac dc_l=-68780 dc_r=-5429 cnt=384
+[20:38:22:930]     2623/I/NONE  /  1 | [54] comp_l=88 comp_r=0
+[20:38:22:930]     2623/I/NONE  /  1 | [54] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2623/I/NONE  /  1 | [54] val_l=0xFFFFA573 val_r=0x00000000 diff_l=-23181 diff_r=0
+[20:38:22:930]     2638/I/NONE  /  1 | Dac dc_l=-68900 dc_r=-5437 cnt=384
+[20:38:22:930]     2638/I/NONE  /  1 | [55] comp_l=208 comp_r=0
+[20:38:22:930]     2638/I/NONE  /  1 | [55] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2638/I/NONE  /  1 | [55] val_l=0xFFFFA574 val_r=0x00000000 diff_l=-23180 diff_r=0
+[20:38:22:930]     2653/I/NONE  /  1 | Dac dc_l=-68844 dc_r=-5458 cnt=384
+[20:38:22:930]     2653/I/NONE  /  1 | [56] comp_l=152 comp_r=0
+[20:38:22:930]     2653/I/NONE  /  1 | [56] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2653/I/NONE  /  1 | [56] val_l=0xFFFFA575 val_r=0x00000000 diff_l=-23179 diff_r=0
+[20:38:22:930]     2668/I/NONE  /  1 | Dac dc_l=-68848 dc_r=-5457 cnt=384
+[20:38:22:930]     2668/I/NONE  /  1 | [57] comp_l=156 comp_r=0
+[20:38:22:930]     2668/I/NONE  /  1 | [57] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2668/I/NONE  /  1 | [57] val_l=0xFFFFA576 val_r=0x00000000 diff_l=-23178 diff_r=0
+[20:38:22:930]     2683/I/NONE  /  1 | Dac dc_l=-68823 dc_r=-5397 cnt=384
+[20:38:22:930]     2683/I/NONE  /  1 | [58] comp_l=131 comp_r=0
+[20:38:22:930]     2683/I/NONE  /  1 | [58] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2683/I/NONE  /  1 | [58] val_l=0xFFFFA577 val_r=0x00000000 diff_l=-23177 diff_r=0
+[20:38:22:930]     2696/I/NONE  /  1 | Dac dc_l=-68727 dc_r=-5395 cnt=384
+[20:38:22:930]     2696/I/NONE  /  1 | [59] comp_l=35 comp_r=0
+[20:38:22:930]     2696/I/NONE  /  1 | [59] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2696/I/NONE  /  1 | [59] val_l=0xFFFFA578 val_r=0x00000000 diff_l=-23176 diff_r=0
+[20:38:22:930]     2709/I/NONE  /  1 | Dac dc_l=-68772 dc_r=-5444 cnt=384
+[20:38:22:930]     2709/I/NONE  /  1 | [60] comp_l=80 comp_r=0
+[20:38:22:930]     2709/I/NONE  /  1 | [60] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2709/I/NONE  /  1 | [60] val_l=0xFFFFA579 val_r=0x00000000 diff_l=-23175 diff_r=0
+[20:38:22:930]     2724/I/NONE  /  1 | Dac dc_l=-68777 dc_r=-5417 cnt=384
+[20:38:22:930]     2724/I/NONE  /  1 | [61] comp_l=85 comp_r=0
+[20:38:22:930]     2724/I/NONE  /  1 | [61] ERROR: comp_l too large -- reset to 1
+[20:38:22:930]     2724/
+[20:38:23:164]I/NONE  /  1 | [61] val_l=0xFFFFA57A val_r=0x00000000 diff_l=-23174 diff_r=0
+[20:38:23:164]     2739/I/NONE  /  1 | Dac dc_l=-68753 dc_r=-5439 cnt=384
+[20:38:23:164]     2739/I/NONE  /  1 | [62] comp_l=61 comp_r=0
+[20:38:23:164]     2739/I/NONE  /  1 | [62] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2739/I/NONE  /  1 | [62] val_l=0xFFFFA57B val_r=0x00000000 diff_l=-23173 diff_r=0
+[20:38:23:164]     2754/I/NONE  /  1 | Dac dc_l=-68745 dc_r=-5490 cnt=384
+[20:38:23:164]     2754/I/NONE  /  1 | [63] comp_l=53 comp_r=0
+[20:38:23:164]     2754/I/NONE  /  1 | [63] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2754/I/NONE  /  1 | [63] val_l=0xFFFFA57C val_r=0x00000000 diff_l=-23172 diff_r=0
+[20:38:23:164]     2769/I/NONE  /  1 | Dac dc_l=-68771 dc_r=-5496 cnt=384
+[20:38:23:164]     2769/I/NONE  /  1 | [64] comp_l=79 comp_r=0
+[20:38:23:164]     2769/I/NONE  /  1 | [64] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2769/I/NONE  /  1 | [64] val_l=0xFFFFA57D val_r=0x00000000 diff_l=-23171 diff_r=0
+[20:38:23:164]     2784/I/NONE  /  1 | Dac dc_l=-68740 dc_r=-5457 cnt=384
+[20:38:23:164]     2784/I/NONE  /  1 | [65] comp_l=48 comp_r=0
+[20:38:23:164]     2784/I/NONE  /  1 | [65] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2784/I/NONE  /  1 | [65] val_l=0xFFFFA57E val_r=0x00000000 diff_l=-23170 diff_r=0
+[20:38:23:164]     2799/I/NONE  /  1 | Dac dc_l=-68713 dc_r=-5538 cnt=384
+[20:38:23:164]     2799/I/NONE  /  1 | [66] comp_l=21 comp_r=0
+[20:38:23:164]     2799/I/NONE  /  1 | [66] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2799/I/NONE  /  1 | [66] val_l=0xFFFFA57F val_r=0x00000000 diff_l=-23169 diff_r=0
+[20:38:23:164]     2814/I/NONE  /  1 | Dac dc_l=-68750 dc_r=-5535 cnt=384
+[20:38:23:164]     2814/I/NONE  /  1 | [67] comp_l=58 comp_r=0
+[20:38:23:164]     2814/I/NONE  /  1 | [67] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2814/I/NONE  /  1 | [67] val_l=0xFFFFA580 val_r=0x00000000 diff_l=-23168 diff_r=0
+[20:38:23:164]     2827/I/NONE  /  1 | Dac dc_l=-68753 dc_r=-5550 cnt=384
+[20:38:23:164]     2827/I/NONE  /  1 | [68] comp_l=61 comp_r=0
+[20:38:23:164]     2827/I/NONE  /  1 | [68] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2827/I/NONE  /  1 | [68] val_l=0xFFFFA581 val_r=0x00000000 diff_l=-23167 diff_r=0
+[20:38:23:164]     2840/I/NONE  /  1 | Dac dc_l=-68719 dc_r=-5506 cnt=384
+[20:38:23:164]     2840/I/NONE  /  1 | [69] comp_l=27 comp_r=0
+[20:38:23:164]     2840/I/NONE  /  1 | [69] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2840/I/NONE  /  1 | [69] val_l=0xFFFFA582 val_r=0x00000000 diff_l=-23166 diff_r=0
+[20:38:23:164]     2855/I/NONE  /  1 | Dac dc_l=-68729 dc_r=-5529 cnt=384
+[20:38:23:164]     2855/I/NONE  /  1 | [70] comp_l=37 comp_r=0
+[20:38:23:164]     2855/I/NONE  /  1 | [70] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2855/I/NONE  /  1 | [70] val_l=0xFFFFA583 val_r=0x00000000 diff_l=-23165 diff_r=0
+[20:38:23:164]     2870/I/NONE  /  1 | Dac dc_l=-68770 dc_r=-5597 cnt=384
+[20:38:23:164]     2870/I/NONE  /  1 | [71] comp_l=78 comp_r=0
+[20:38:23:164]     2870/I/NONE  /  1 | [71] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2870/I/NONE  /  1 | [71] val_l=0xFFFFA584 val_r=0x00000000 diff_l=-23164 diff_r=0
+[20:38:23:164]     2885/I/NONE  /  1 | Dac dc_l=-68808 dc_r=-5568 cnt=384
+[20:38:23:164]     2885/I/NONE  /  1 | [72] comp_l=116 comp_r=0
+[20:38:23:164]     2885/I/NONE  /  1 | [72] ERROR: comp_l too large -- reset to 1
+[20:38:23:164]     2885/I/NONE  /  1 | [72] val_l=0xFFFFA585 val_r=0x00000000 diff_l=-23163 diff_r=0
+[20:38:23:164]     2900/I/NONE  /  1 | Dac dc_l=-68774 dc_r=-5609 cnt=384
+[20:38:23:164]     2900/I/NONE  /  1 | [73] comp_l=82 comp_r=0
+[20:38:23:183]     2900/I/NONE  /  1 | [73] ERROR: comp_l too large -- reset to 1
+[20:38:23:183]     2900/I/NONE  /  1 | [73] val_l=0xFFFFA586 val_r=0x00000000 diff_l=-23162 diff_r=0
+[20:38:23:183]     2915/I/NONE  /  1 | Dac dc_l=-68841 dc_r=-5546 cnt=384
+[20:38:23:183]     2915/I/NONE  /  1 | [74] comp_l=149 comp_r=0
+[20:38:23:183]     2915/I/NONE  /  1 | [74] ERROR: comp_l too large -- reset to 1
+[20:38:23:183]     2915/I/NONE  /  1 | [74] val_l=0xFFFFA587 val_r=0x00000000 diff_l=-23161 diff_r=0
+[20:38:23:183]     2930/I/NONE  /  1 | Dac dc_l=-68882 dc_r=-5498 cnt=384
+[20:38:23:183]     2930/I/NONE  /  1 | [75] comp_l=190 comp_r=0
+[20:38:23:201]     2930/I/NONE  /  1 | [75] ERROR: comp_l too large -- reset to 1
+[20:38:23:201]     2930/I/NONE  /  1 | [75] val_l=0xFFFFA588 val_r=0x00000000 diff_l=-23160 diff_r=0
+[20:38:23:201]     2945/I/NONE  /  1 | Dac dc_l=-68772 dc_r=-5548 cnt=384
+[20:38:23:201]     2945/I/NONE  /  1 | [76] comp_l=80 comp_r=0
+[20:38:23:201]     2945/I/NONE  /  1 | [76] ERROR: comp_l too large -- reset to 1
+[20:38:23:201]     2945/I/NON
+[20:38:23:393]E  /  1 | [76] val_l=0xFFFFA589 val_r=0x00000000 diff_l=-23159 diff_r=0
+[20:38:23:393]     2958/I/NONE  /  1 | Dac dc_l=-68920 dc_r=-5555 cnt=384
+[20:38:23:393]     2958/I/NONE  /  1 | [77] comp_l=228 comp_r=0
+[20:38:23:393]     2958/I/NONE  /  1 | [77] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     2958/I/NONE  /  1 | [77] val_l=0xFFFFA58A val_r=0x00000000 diff_l=-23158 diff_r=0
+[20:38:23:393]     2971/I/NONE  /  1 | Dac dc_l=-68888 dc_r=-5558 cnt=384
+[20:38:23:393]     2971/I/NONE  /  1 | [78] comp_l=196 comp_r=0
+[20:38:23:393]     2971/I/NONE  /  1 | [78] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     2971/I/NONE  /  1 | [78] val_l=0xFFFFA58B val_r=0x00000000 diff_l=-23157 diff_r=0
+[20:38:23:393]     2986/I/NONE  /  1 | Dac dc_l=-68888 dc_r=-5559 cnt=384
+[20:38:23:393]     2986/I/NONE  /  1 | [79] comp_l=196 comp_r=0
+[20:38:23:393]     2986/I/NONE  /  1 | [79] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     2986/I/NONE  /  1 | [79] val_l=0xFFFFA58C val_r=0x00000000 diff_l=-23156 diff_r=0
+[20:38:23:393]     3001/I/NONE  /  1 | Dac dc_l=-68824 dc_r=-5526 cnt=384
+[20:38:23:393]     3001/I/NONE  /  1 | [80] comp_l=132 comp_r=0
+[20:38:23:393]     3001/I/NONE  /  1 | [80] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3001/I/NONE  /  1 | [80] val_l=0xFFFFA58D val_r=0x00000000 diff_l=-23155 diff_r=0
+[20:38:23:393]     3016/I/NONE  /  1 | Dac dc_l=-68895 dc_r=-5545 cnt=384
+[20:38:23:393]     3016/I/NONE  /  1 | [81] comp_l=203 comp_r=0
+[20:38:23:393]     3016/I/NONE  /  1 | [81] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3016/I/NONE  /  1 | [81] val_l=0xFFFFA58E val_r=0x00000000 diff_l=-23154 diff_r=0
+[20:38:23:393]     3031/I/NONE  /  1 | Dac dc_l=-68831 dc_r=-5503 cnt=384
+[20:38:23:393]     3031/I/NONE  /  1 | [82] comp_l=139 comp_r=0
+[20:38:23:393]     3031/I/NONE  /  1 | [82] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3031/I/NONE  /  1 | [82] val_l=0xFFFFA58F val_r=0x00000000 diff_l=-23153 diff_r=0
+[20:38:23:393]     3046/I/NONE  /  1 | Dac dc_l=-68828 dc_r=-5573 cnt=384
+[20:38:23:393]     3046/I/NONE  /  1 | [83] comp_l=136 comp_r=0
+[20:38:23:393]     3046/I/NONE  /  1 | [83] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3046/I/NONE  /  1 | [83] val_l=0xFFFFA590 val_r=0x00000000 diff_l=-23152 diff_r=0
+[20:38:23:393]     3061/I/NONE  /  1 | Dac dc_l=-68841 dc_r=-5559 cnt=384
+[20:38:23:393]     3061/I/NONE  /  1 | [84] comp_l=149 comp_r=0
+[20:38:23:393]     3061/I/NONE  /  1 | [84] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3061/I/NONE  /  1 | [84] val_l=0xFFFFA591 val_r=0x00000000 diff_l=-23151 diff_r=0
+[20:38:23:393]     3076/I/NONE  /  1 | Dac dc_l=-68861 dc_r=-5538 cnt=384
+[20:38:23:393]     3076/I/NONE  /  1 | [85] comp_l=169 comp_r=0
+[20:38:23:393]     3076/I/NONE  /  1 | [85] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3076/I/NONE  /  1 | [85] val_l=0xFFFFA592 val_r=0x00000000 diff_l=-23150 diff_r=0
+[20:38:23:393]     3089/I/NONE  /  1 | Dac dc_l=-68860 dc_r=-5496 cnt=384
+[20:38:23:393]     3089/I/NONE  /  1 | [86] comp_l=168 comp_r=0
+[20:38:23:393]     3089/I/NONE  /  1 | [86] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3089/I/NONE  /  1 | [86] val_l=0xFFFFA593 val_r=0x00000000 diff_l=-23149 diff_r=0
+[20:38:23:393]     3104/I/NONE  /  1 | Dac dc_l=-68848 dc_r=-5543 cnt=480
+[20:38:23:393]     3104/I/NONE  /  1 | [87] comp_l=156 comp_r=0
+[20:38:23:393]     3104/I/NONE  /  1 | [87] ERROR: comp_l too large -- reset to 1
+[20:38:23:393]     3104/I/NONE  /  1 | [87] val_l=0xFFFFA594 val_r=0x00000000 diff_l=-23148 diff_r=0
+[20:38:23:393]     3119/I/NONE  /  1 | Dac dc_l=-68839 dc_r=-5609 cnt=384
+[20:38:23:393]     3119/I/NONE  /  1 | [88] comp_l=147 comp_r=0
+[20:38:23:407]     3119/I/NONE  /  1 | [88] ERROR: comp_l too large -- reset to 1
+[20:38:23:407]     3119/I/NONE  /  1 | [88] val_l=0xFFFFA595 val_r=0x00000000 diff_l=-23147 diff_r=0
+[20:38:23:407]     3134/I/NONE  /  1 | Dac dc_l=-68823 dc_r=-5620 cnt=384
+[20:38:23:407]     3134/I/NONE  /  1 | [89] comp_l=131 comp_r=0
+[20:38:23:407]     3134/I/NONE  /  1 | [89] ERROR: comp_l too large -- reset to 1
+[20:38:23:407]     3134/I/NONE  /  1 | [89] val_l=0xFFFFA596 val_r=0x00000000 diff_l=-23146 diff_r=0
+[20:38:23:407]     3149/I/NONE  /  1 | Dac dc_l=-68814 dc_r=-5567 cnt=384
+[20:38:23:407]     3149/I/NONE  /  1 | [90] comp_l=122 comp_r=0
+[20:38:23:411]     3149/I/NONE  /  1 | [90] ERROR: comp_l too large -- reset to 1
+[20:38:23:411]     3149/I/NONE  /  1 | [90] val_l=0xFFFFA597 val_r=0x00000000 diff_l=-23145 diff_r=0
+[20:38:23:411]     3164/I/NONE  /  1 | Dac dc_l=-68796 dc_r=-5546 cnt=384
+[20:38:23:411]     3164/I/NONE  /  1 | [91] comp_l=104 comp_r=0
+[20:38:23:411]     3164/I/NONE  /  1 | [91] ERROR: comp_l too large -- reset to 1
+[20:38:23:411]     316
+[20:38:23:599]4/I/NONE  /  1 | [91] val_l=0xFFFFA598 val_r=0x00000000 diff_l=-23144 diff_r=0
+[20:38:23:599]     3179/I/NONE  /  1 | Dac dc_l=-68851 dc_r=-5551 cnt=384
+[20:38:23:599]     3179/I/NONE  /  1 | [92] comp_l=159 comp_r=0
+[20:38:23:599]     3179/I/NONE  /  1 | [92] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3179/I/NONE  /  1 | [92] val_l=0xFFFFA599 val_r=0x00000000 diff_l=-23143 diff_r=0
+[20:38:23:599]     3194/I/NONE  /  1 | Dac dc_l=-68794 dc_r=-5563 cnt=384
+[20:38:23:599]     3194/I/NONE  /  1 | [93] comp_l=102 comp_r=0
+[20:38:23:599]     3194/I/NONE  /  1 | [93] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3194/I/NONE  /  1 | [93] val_l=0xFFFFA59A val_r=0x00000000 diff_l=-23142 diff_r=0
+[20:38:23:599]     3209/I/NONE  /  1 | Dac dc_l=-68828 dc_r=-5551 cnt=384
+[20:38:23:599]     3209/I/NONE  /  1 | [94] comp_l=136 comp_r=0
+[20:38:23:599]     3209/I/NONE  /  1 | [94] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3209/I/NONE  /  1 | [94] val_l=0xFFFFA59B val_r=0x00000000 diff_l=-23141 diff_r=0
+[20:38:23:599]     3222/I/NONE  /  1 | Dac dc_l=-68842 dc_r=-5650 cnt=384
+[20:38:23:599]     3222/I/NONE  /  1 | [95] comp_l=150 comp_r=0
+[20:38:23:599]     3222/I/NONE  /  1 | [95] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3222/I/NONE  /  1 | [95] val_l=0xFFFFA59C val_r=0x00000000 diff_l=-23140 diff_r=0
+[20:38:23:599]     3235/I/NONE  /  1 | Dac dc_l=-68730 dc_r=-5563 cnt=384
+[20:38:23:599]     3235/I/NONE  /  1 | [96] comp_l=38 comp_r=0
+[20:38:23:599]     3235/I/NONE  /  1 | [96] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3235/I/NONE  /  1 | [96] val_l=0xFFFFA59D val_r=0x00000000 diff_l=-23139 diff_r=0
+[20:38:23:599]     3250/I/NONE  /  1 | Dac dc_l=-68779 dc_r=-5546 cnt=384
+[20:38:23:599]     3250/I/NONE  /  1 | [97] comp_l=87 comp_r=0
+[20:38:23:599]     3250/I/NONE  /  1 | [97] ERROR: comp_l too large -- reset to 1
+[20:38:23:599]     3250/I/NONE  /  1 | [97] val_l=0xFFFFA59E val_r=0x00000000 diff_l=-23138 diff_r=0
+[20:38:23:599]     3265/I/NONE  /  1 | Dac dc_l=-68692 dc_r=-5544 cnt=384
+[20:38:23:599]     3265/I/NONE  /  1 | [98] comp_l=0 comp_r=0
+[20:38:23:599]     3265/I/NONE  /  1 | break: comp_l=0, dc_step_l=1
+[20:38:23:599]     3265/I/NONE  /  1 | Final analog_gain: 16
+[20:38:23:599]     3265/I/NONE  /  1 | Final comp_l=0, comp_r=0
+[20:38:23:599]     3265/I/NONE  /  1 | Final diff_l=-23138, diff_r=0
+[20:38:23:599]     3265/I/NONE  /  1 | Final val_l  =0xFFFFA59E val_r  =0x00000000
+[20:38:23:599]     3265/I/NONE  /  1 | 
+[20:38:23:599]Getting final values consumes 1537 ms
+[20:38:23:599]
+[20:38:23:599]     3265/I/NONE  /  1 | AUTO CALIB DAC DC: ana_gain=16, L=0xFFFFA59E R=0x00000000, ret=0
+[20:38:23:599]     3265/I/NONE  /  1 | 
+[20:38:23:599]ADC only
+[20:38:23:599]
+[20:38:23:599]     3278/I/NONE  /  1 | Dac dc_l=-68757 dc_r=-5546 cnt=384
+[20:38:23:599]     3278/I/NONE  /  1 | 
+[20:38:23:599]DAC TO ADC
+[20:38:23:599]
+[20:38:23:599]     3278/I/NONE  /  1 | comp_gate_l=50, comp_gate_r=50
+[20:38:23:599]     3278/I/NONE  /  1 | 
+[20:38:23:599]SET ANA DC
+[20:38:23:599]
+[20:38:23:599]     3278/I/NONE  /  1 | cal_dac_ana_dc_l=0x2c00, cal_dac_ana_dc_r=0x0
+[20:38:23:599]     3278/I/NONE  /  1 | 
+[20:38:23:599]CALIB DIG DC
+[20:38:23:599]
+[20:38:23:599]     3293/I/NONE  /  1 | Dac dc_l=-68710 dc_r=-5508 cnt=384
+[20:38:23:599]     3293/I/NONE  /  1 | [0] comp_l=-47 comp_r=0
+[20:38:23:599]     3293/I/NONE  /  1 | break: comp_l=-47, dc_step_l=1
+[20:38:23:599]     3293/I/NONE  /  1 | Final analog_gain: 1
+[20:38:23:599]     3293/I/NONE  /  1 | Final comp_l=-47, comp_r=0
+[20:38:23:599]     3293/I/NONE  /  1 | Final diff_l=0, diff_r=0
+[20:38:23:599]     3293/I/NONE  /  1 | Final val_l  =0x00000000 val_r  =0x00000000
+[20:38:23:599]     3293/I/NONE  /  1 | 
+[20:38:23:599]Getting final values consumes 29 ms
+[20:38:23:599]
+[20:38:23:599]     3293/I/NONE  /  1 | AUTO CALIB DAC DC: ana_gain=1, L=0x00000000 R=0x00000000, ret=0
+[20:38:23:599]     3293/I/NONE  /  1 | 
+[20:38:23:599]ADC only
+[20:38:23:599]
+[20:38:23:599]     3306/I/NONE  /  1 | Dac dc_l=-68790 dc_r=-5594 cnt=384
+[20:38:23:599]     3306/I/NONE  /  1 | 
+[20:38:23:599]DAC TO ADC
+[20:38:23:599]
+[20:38:23:599]     3306/I/NONE  /  1 | comp_gate_l=5, comp_gate_r=5
+[20:38:23:599]     3306/I/NONE  /  1 | 
+[20:38:23:599]SET ANA DC
+[20:38:23:599]
+[20:38:23:599]     3306/I/NONE  /  1 | cal_dac_ana_dc_l=0x2c00, cal_dac_ana_dc_r=0x0
+[20:38:23:599]     3306/I/NONE  /  1 | 
+[20:38:23:599]CALIB DAC GAIN
+[20:38:23:599]
+[20:38:23:599]     3306/I/NONE  /  1 | cal_dac_dig_dc_l=-23138, cal_dac_dig_dc_r=0
+[20:38:23:599]     3321/I/NONE  /  1 | Dac dc_l=768143 dc_r=-5746 cnt=384
+[20:38:23:599]     3331/I/NONE  /  1 | Dac dc_l=975486 dc_r=-6404 cnt=384
+[20:38:23:599]     3341/I/NONE  /  1 | Dac dc_l=975497 dc_r=-6817 cnt=384
+[20:38:23:599]     3349/I/NONE  /  1 | Dac dc_l=975510 dc_r=-6914 cnt=384
+[20:38:23:599]     3359/I/NONE  /  1 | Dac dc_l=975529 dc_r=-6829 cnt=384
+[20:38:23:599]     3359/I/NONE  /  1 | ====>Final dc_out_l=1044295, dc_out_r=-1147
+[20:38:23:599]     3359/I/NONE  /  1 | AUTO CALIB DAC GAIN: ana_gain=16, L*1000=1000 R*1000=1000
+[20:38:23:599]     3359/I/NONE  /  1 | 
+[20:38:23:599]ADC only
+[20:38:23:639]
+[20:38:23:639]     3370/I/NONE  /  1 | Dac dc_l=-68734 dc_r=-6649 cnt=384
+[20:38:23:639]     3370/I/NONE  /  1 | 
+[20:38:23:639]DAC TO ADC
+[20:38:23:639]
+[20:38:23:639]     3370/I/NONE  /  1 | comp_gate_l=50, comp_gate_r=50
+[20:38:23:639]     3370/I/NONE  /  1 | 
+[20:38:23:639]SET ANA DC
+[20:38:23:639]
+[20:38:23:639]     3370/I/NONE  /  1 | cal_dac_ana_dc_l=0x2c00, cal_dac_ana_dc_r=0x0
+[20:38:23:639]     3370/I/NONE  /  1 | 
+[20:38:23:639]CALIB DAC GAIN
+[20:38:23:639]
+[20:38:23:639]     3370/I/NONE  /  1 | cal_dac_dig_dc_l=0, cal_dac_dig_dc_r=0
+[20:38:23:639]     3385/I/NONE  /  1 | Dac dc_l=20751 dc_r=-5945 cnt=480
+[20:38:23:639]     3395/I/NONE  /  1 | Dac dc_l=20704 dc_r=-5247 cnt=384
+[20:38:23:639]     3405/I/NONE  /  1 | Dac dc_l=20757 dc_r=-4939 cnt=384
+[20:38:23:655]     3415/I/NONE  /  1 | Dac dc_l=20776 dc_r=-4914 cnt=384
+[20:38:23:691]     3423/I/NONE  /  1 | Dac dc_l=20721 dc_r=-4920 cnt=384
+[20:38:23:691]     3423/I/NONE  /  1 | ====>Final dc_out_l=89473, dc_out_r=1644
+[20:38:23:691]     3423/I/NONE  /  1 | AUTO CALIB DAC GAIN: ana_gain=1, L*1000=11671 R*1000=-697
+[20:38:23:691]     3423/I/NONE  /  1 | 
+[20:38:23:691]CLOSE CALIB STREAM
+[20:38:23:691]
+[20:38:23:691]     3423/I/NONE  /  1 | [af_stream_stop] id = 0, stream = 0
+[20:38:23:691]     3424/I/NONE  /  1 | codec_int_stream_stop: stream=0
+[20:38:23:691]     3426/I/NONE  /  1 | codec_hw_stop: stream=0
+[20:38:23:691]     3430/I/NONE  /  4 | af_thread:WARNING: id=0 stream=1 lost 2 signals
+[20:38:23:691]     3430/I/NONE  /  4 | af_thread:WARNING: id=0 stream=1 hdlr intvl ERROR: 7527 us (expecting 2000)
+[20:38:23:691]     3430/I/NONE  /  4 | af_thread:WARNING: id=0 stream=1 lost 255 signals
+[20:38:23:691]     3430/I/NONE  /  4 | af_thread:WARNING: id=0 stream=1 hdlr intvl ERROR: 78 us (expecting 2000)
+[20:38:23:691]     3430/I/NONE  /  1 | [af_stream_stop] id = 0, stream = 1
+[20:38:23:691]     3430/I/NONE  /  1 | codec_int_stream_stop: stream=1
+[20:38:23:691]     3430/I/NONE  /  1 | codec_hw_stop: stream=1
+[20:38:23:691]     3430/I/NONE  /  1 | need_ldo_on_cnt:0 reg_val_mic_bias_b:0334
+[20:38:23:691]
+[20:38:23:768]     3497/I/NONE  /  1 | [af_stream_close] id = 0, stream = 0
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_stream_close: stream=0
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_stream_restore_chan_vol: stream=0
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_close: type=0 user_map=0x1
+[20:38:23:768]     3497/I/NONE  /  1 | [af_stream_close] id = 0, stream = 1
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_stream_close: stream=1
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_stream_restore_chan_vol: stream=1
+[20:38:23:768]     3497/I/NONE  /  1 | codec_int_close: type=0 user_map=0x1
+[20:38:23:768]     3497/I/NONE  /  1 | codec_hw_close: type=0
+[20:38:23:768]     3502/I/NONE  /  1 | 
+[20:38:23:768]DC auto calib consumes 83 ms
+[20:38:23:768]
+[20:38:23:768]     3502/I/NONE  /  1 | codec_int_close: type=2 user_map=0x0
+[20:38:23:768]     3502/I/NONE  /  1 | codec_hw_close: type=2
+[20:38:23:768]     3507/I/NONE  /  1 | codec_dac_dc_save_calib_value: cfg=200573d4, nv_cfg=20056ff4, num=2
+[20:38:23:768]     350-------
+[20:38:23:790]     3507/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:23:790]     3508/I/NONE  /  1 | nv ext magic 0x4e455854 valid len 1024
+[20:38:23:790]     3508/I/NONE  /  1 | generated crc32: 0x73fd1f90, header crc: 0x73fd1f90
+[20:38:23:790]     3508/I/NONE  /  1 | Nv extension is valid.
+[20:38:23:790]     3508/I/NONE  /  1 | Former nv ext valid len 1024
+[20:38:23:790]     3508/I/NONE  /  1 | Current FW version nv ext valid len 1024
+[20:38:23:790]     3508/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:23:790]     3524/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ec000,len = 0x1000,remain = 1,result = 0.
+[20:38:23:790]     3547/I/NONE= 0,result = 0.
+[20:38:23:828]     3563/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ed000,len = 0x1000,remain = 1,result = 0.
+[20:38:23:828]     3586/I/NONE  /  1 | nv_extension_callback:type = 1, addr = 0x283ed000,len = 0x1000,remain = 0,result = 0.
+[20:38:23:852]
+[20:38:23:924]     3636/I/NONE  /  1 | codec_dac_dc_save_calib_value: done
+[20:38:23:924]     3636/I/NONE  /  1 | codec_dac_dc_load_calib_value: start
+[20:38:23:924]     3636/I/NONE  /  1 | cfg=200573d4, nv_cfg=20056ff4, num=2
+[20:38:23:924]     3636/I/NONE  /  1 | --------DUMP DAC DC param: NV, cfg=20056ff4--------
+[20:38:23:924]     3636/I/NONE  /  1 | valid:        0xdac0dc05
+[20:38:23:924]     3636/I/NONE  /  1 | dc_l:         0xffffa59e(-23138)
+[20:38:23:924]     3636/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_l:     0x2c00
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:23:924]     3636/I/NONE  /  1 | gain_l*1000:  1000
+[20:38:23:924]     3636/I/NONE  /  1 | gain_r*1000:  1000
+[20:38:23:924]     3636/I/NONE  /  1 | ana_gain:     0x10
+[20:38:23:924]     3636/I/NONE  /  1 | ini_ana_gain: 0x0
+[20:38:23:924]     3636/I/NONE  /  1 | gain_offset:  0x1
+[20:38:23:924]     3636/I/NONE  /  1 | step_mode:    0x4
+[20:38:23:924]     3636/I/NONE  /  1 | top_gain:     0xf
+[20:38:23:924]     3636/I/NONE  /  1 | --------DUMP END--------
+[20:38:23:924]     3636/I/NONE  /  1 | nv_cfg[0](20056ff4) -> tmp[0](2016962c)
+[20:38:23:924]     3636/I/NONE  /  1 | --------DUMP DAC DC param: NV, cfg=20057014--------
+[20:38:23:924]     3636/I/NONE  /  1 | valid:        0xdac0dc05
+[20:38:23:924]     3636/I/NONE  /  1 | dc_l:         0x0(0)
+[20:38:23:924]     3636/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_l:     0x2c00
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:23:924]     3636/I/NONE  /  1 | gain_l*1000:  11671
+[20:38:23:924]     3636/I/NONE  /  1 | gain_r*1000:  11671
+[20:38:23:924]     3636/I/NONE  /  1 | ana_gain:     0x1
+[20:38:23:924]     3636/I/NONE  /  1 | ini_ana_gain: 0xf
+[20:38:23:924]     3636/I/NONE  /  1 | gain_offset:  0x1
+[20:38:23:924]     3636/I/NONE  /  1 | step_mode:    0x4
+[20:38:23:924]     3636/I/NONE  /  1 | top_gain:     0xf
+[20:38:23:924]     3636/I/NONE  /  1 | --------DUMP END--------
+[20:38:23:924]     3636/I/NONE  /  1 | nv_cfg[1](20057014) -> tmp[1](2016964c)
+[20:38:23:924]     3636/I/NONE  /  1 | tmp[0](2016962c) -> cfg[0](200573d4)
+[20:38:23:924]     3636/I/NONE  /  1 | --------DUMP DAC DC param: NV->DC, cfg=200573d4--------
+[20:38:23:924]     3636/I/NONE  /  1 | valid:        0xdac0dc05
+[20:38:23:924]     3636/I/NONE  /  1 | dc_l:         0xffffa59e(-23138)
+[20:38:23:924]     3636/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_l:     0x2c00
+[20:38:23:924]     3636/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:23:924]     3636/I/NONE  /  1 | gain_l*1000:  1000
+[20:38:23:924]     3637/I/NONE  /  1 | gain_r*1000:  1000
+[20:38:23:924]     3637/I/NONE  /  1 | ana_gain:     0x10
+[20:38:23:924]     3637/I/NONE  /  1 | ini_ana_gain: 0x0
+[20:38:23:924]     3637/I/NONE  /  1 | gain_offset:  0x1
+[20:38:23:924]     3637/I/NONE  /  1 | step_mode:    0x4
+[20:38:23:924]     3637/I/NONE  /  1 | top_gain:     0xf
+[20:38:23:924]     3637/I/NONE  /  1 | --------DUMP END--------
+[20:38:23:924]     3637/I/NONE  /  1 | tmp[1](2016964c) -> cfg[1](200573f4)
+[20:38:23:924]     3637/I/NONE  /  1 | --------DUMP DAC DC param: NV->DC, cfg=200573f4--------
+[20:38:23:924]     3637/I/NONE  /  1 | valid:        0xdac0dc05
+[20:38:23:924]     3637/I/NONE  /  1 | dc_l:         0x0(0)
+[20:38:23:924]     3637/I/NONE  /  1 | dc_r:         0x0(0)
+[20:38:23:924]     3637/I/NONE  /  1 | ana_dc_l:     0x2c00
+[20:38:23:924]     3637/I/NONE  /  1 | ana_dc_r:     0x0
+[20:38:23:924]     3637/I/NONE  /  1 | gain_l*1000:  11671
+[20:38:23:924]     3637/I/NONE  /  1 | gain_r*1000:  11671
+[20:38:23:924]     3637/I/NONE  /  1 | ana_gain:     0x1
+[20:38:23:924]     3637/I/NONE  /  1 | ini_ana_gain: 0xf
+[20:38:23:924]     3637/I/NONE  /  1 | gain_offset:  0x1
+[20:38:23:924]     3637/I/NONE  /  1 | step_mode:    0x4
+[20:38:23:924]     3637/I/NONE  /  1 | top_gain:     0xf
+[20:38:23:924]     3637/I/NONE  /  1 | --------DUMP END--------
+[20:38:23:944]     3637/I/NONE  /  1 | codec_dac_dc_load_calib_value: success=1, valid=2, num=2
+[20:38:23:944]     3637/I/NONE  /  1 | codec_dac_dc_auto_load: CALIB_COST_TIME=2984, r=0
+[20:38:23:944]     3637/I/NONE  /  1 | codec_adc_dc_auto_load: start: open_af=1, reboot=0
+[20:38:23:944]     3637/I/NONE  /  1 | codec_adc_dc_load_calib_value ret=0
+[20:38:23:944]     3637/I/NONE  /  1 | start_adc_capture_stream work:0 op:1 freq:6
+[20:38:23:944]     3639/I/NONE  /  1 | syspool_init: 0x200b1498,0xb7868
+[20:38:23:944]     3639/I/NONE  /  1 | [syspool_get_buff] ptr=0x200b1498 size=960 free=751720 user=0xc0d596f
+[20:38:23:950]     3639/I/NONE  /  1 | [af_stream_open] id = 0, stream = 1
+[20:38:23:950]     3640/I/NONE  /  1 | codec_int_open: user_map=0x0
+[20:38:23:950]     3640/I/NONE  /  1 | codec_hw_open
+[20:38:23:950]     3642/I/NONE  /  1 | CALIB_ANA_DC: L=0x2c00, R=0x0, gain=0x10
+[20:38:23:950]     3642/I/NONE  /  1 | CALIB_DIG_DC: L=0xffffd2cf, R=0x0
+[20:38:23:950]     3642/I/NONE  /  1 | codec_int_stream_open: stream=1
+[20:38:23:967]     3642/I/NONE  /  1 | [af_stream_setup] id = 0, stream = 1
+[20:38:23:967]     3642/I/NONE  /  1 | codec_int_stream_setup: stream=1
+[20:38:23:967]     3642/I/NONE  /  1 | [sample_rate]old=0 new=8000
+[20:38:23:967]     3642/I/NONE  /  1 | [bits]old=0 new=24
+[20:38:23:967]     3642/I/NONE  /  1 | [channel_num]old=0 new=2
+[20:38:23:967]     3642/I/NONE  /  1 | [channel_map]old=0x0 new=0x12
+[20:38:23:967]     3642/I/NONE  /  1 | [use_dma]old=0 new=1
+[20:38:23:967]     3642/I/NONE  /  1 | [vol]old=0 new=15 chan_vol_set=0
+[20:38:23:967]     3642/I/NONE  /  1 | [io_path]old=0 new=10
+[20:38:23:967]     3642/I/NONE  /  1 | [codec_int_stream_setup]stream=1 set_flag=0xff
+[20:38:23:967]     3642/I/NONE  /  1 | [hal_codec_setup_stream] capture sample_rate=8000
+[20:38:23:967]     3642/I/NONE  /  1 | [af_stream_start] id = 0, stream = 1
+[20:38:23:967]     3642/I/NONE  /  1 | codec_int_stream_start: stream=1
+[20:38:23:967]     3643/I/NONE  /  1 | need_ldo_on_cnt:2 reg_val_mic_bias_b:2324
+[20:38:23:967]     3643/I/NONE  /  1 | bias_ldo_on :002a val:2334
+[20:38:23:967]     3643/I/NONE  /  1 | codec_hw_start: stream=1
+[20:38:23:967]     3643/I/NONE  /  1 | codec_int_stream_set_chan_vol: stream=1 ch_map=0x12 vol=1
+[20:38:23:967]     3643/I/NONE  /  1 | start_adc_capture_stream on
+[20:38:23:967]
+[20:38:24:288]     3999/I/NONE  /  5 | 
+[20:38:24:288]
+[20:38:24:288]
+[20:38:24:288]     3999/I/NONE  /  5 | capture sample: -8003 -9432 -8001 -9443 len=240
+[20:38:24:288]     3999/I/NONE  /  5 | 
+[20:38:24:288]
+[20:38:24:288]
+[20:38:24:288]
+[20:38:24:439]     4143/I/NONE  /  1 | ===========Get the original adc dc value===========
+[20:38:24:439]
+[20:38:24:662]     4355/I/NONE  /  5 | 
+[20:38:24:662]
+[20:38:24:662]
+[20:38:24:662]     4355/I/NONE  /  5 | capture sample: 572 -172 565 -174 len=240
+[20:38:24:662]     4355/I/NONE  /  5 | 
+[20:38:24:662]
+[20:38:24:662]
+[20:38:24:662]
+[20:38:25:037]     4711/I/NONE  /  5 | 
+[20:38:25:037]
+[20:38:25:037]
+[20:38:25:037]     4711/I/NONE  /  5 | capture sample: 570 -177 574 -174 len=240
+[20:38:25:037]     4711/I/NONE  /  5 | 
+[20:38:25:037]
+[20:38:25:037]
+[20:38:25:037]     4743/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:25:077]     4743/I/NONE  /  5 | ADC avg=570 max[46]=574 min[8]=567 delta=7
+[20:38:25:077]     4744/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:25:077]     4744/I/NONE  /  5 | ADC avg=-175 max[37]=-170 min[45]=-179 delta=9
+[20:38:25:077]     4744/I/NONE  /  1 | adc dc calib mic_ch:1 original_dc:570
+[20:38:25:077]     4744/I/NONE  /  1 | adc dc calib mic_ch:4 original_dc:-175
+[20:38:25:077]     4744/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2001===========
+[20:38:25:077]     4774/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0001===========
+[20:38:25:103]
+[20:38:25:412]     5067/I/NONE  /  5 | 
+[20:38:25:412]
+[20:38:25:412]
+[20:38:25:412]     5067/I/NONE  /  5 | capture sample: 565 -167 561 -167 len=240
+[20:38:25:412]     5067/I/NONE  /  5 | 
+[20:38:25:412]
+[20:38:25:412]
+[20:38:25:412]
+[20:38:25:643]     5285/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:25:643]     5285/I/NONE  /  5 | ADC avg=564 max[8]=567 min[56]=558 delta=9
+[20:38:25:643]     5285/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:25:643]     5285/I/NONE  /  5 | ADC avg=-167 max[3]=-163 min[11]=-170 delta=7
+[20:38:25:643]     5285/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2002===========
+[20:38:25:643]     5315/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0002===========
+[20:38:25:673]
+[20:38:25:788]     5423/I/NONE  /  5 | 
+[20:38:25:788]
+[20:38:25:788]
+[20:38:25:788]     5424/I/NONE  /  5 | capture sample: 568 -163 567 -165 len=240
+[20:38:25:788]     5424/I/NONE  /  5 | 
+[20:38:25:788]
+[20:38:25:788]
+[20:38:25:788]
+[20:38:26:162]     5780/I/NONE  /  5 | 
+[20:38:26:162]
+[20:38:26:162]
+[20:38:26:162]     5780/I/NONE  /  5 | capture sample: 565 -165 558 -165 len=240
+[20:38:26:162]     5780/I/NONE  /  5 | 
+[20:38:26:162]
+[20:38:26:162]
+[20:38:26:162]     5826/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:26:213]     5826/I/NONE  /  5 | ADC avg=561 max[22]=565 min[38]=556 delta=9
+[20:38:26:213]     5826/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:26:213]     5826/I/NONE  /  5 | ADC avg=-165 max[17]=-160 min[15]=-168 delta=8
+[20:38:26:213]     5826/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2004===========
+[20:38:26:213]     5856/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0004===========
+[20:38:26:242]
+[20:38:26:537]     6136/I/NONE  /  5 | 
+[20:38:26:537]
+[20:38:26:537]
+[20:38:26:537]     6136/I/NONE  /  5 | capture sample: 552 -160 554 -161 len=240
+[20:38:26:537]     6136/I/NONE  /  5 | 
+[20:38:26:537]
+[20:38:26:537]
+[20:38:26:537]
+[20:38:26:783]     6367/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:26:783]     6367/I/NONE  /  5 | ADC avg=556 max[4]=563 min[58]=551 delta=12
+[20:38:26:783]     6367/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:26:783]     6367/I/NONE  /  5 | ADC avg=-156 max[27]=-152 min[5]=-160 delta=8
+[20:38:26:783]     6367/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2008===========
+[20:38:26:783]     6397/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0008===========
+[20:38:26:812]
+[20:38:26:912]     6492/I/NONE  /  5 | 
+[20:38:26:912]
+[20:38:26:912]
+[20:38:26:912]     6492/I/NONE  /  5 | capture sample: 552 -152 558 -149 len=240
+[20:38:26:912]     6492/I/NONE  /  5 | 
+[20:38:26:912]
+[20:38:26:912]
+[20:38:26:912]
+[20:38:27:287]     6848/I/NONE  /  5 | 
+[20:38:27:287]
+[20:38:27:287]
+[20:38:27:287]     6848/I/NONE  /  5 | capture sample: 556 -154 556 -152 len=240
+[20:38:27:287]     6848/I/NONE  /  5 | 
+[20:38:27:287]
+[20:38:27:287]
+[20:38:27:287]     6908/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:27:354]     6908/I/NONE  /  5 | ADC avg=553 max[16]=558 min[56]=549 delta=9
+[20:38:27:354]     6908/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:27:354]     6908/I/NONE  /  5 | ADC avg=-152 max[19]=-147 min[31]=-156 delta=9
+[20:38:27:354]     6908/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2010===========
+[20:38:27:354]     6938/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0010===========
+[20:38:27:382]
+[20:38:27:663]     7204/I/NONE  /  5 | 
+[20:38:27:663]
+[20:38:27:663]
+[20:38:27:663]     7204/I/NONE  /  5 | capture sample: 538 -140 542 -138 len=240
+[20:38:27:663]     7204/I/NONE  /  5 | 
+[20:38:27:663]
+[20:38:27:663]
+[20:38:27:663]
+[20:38:27:923]     7449/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:27:923]     7449/I/NONE  /  5 | ADC avg=536 max[52]=542 min[20]=531 delta=11
+[20:38:27:923]     7449/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:27:923]     7449/I/NONE  /  5 | ADC avg=-138 max[25]=-135 min[29]=-142 delta=7
+[20:38:27:923]     7449/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2020===========
+[20:38:27:923]     7479/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0020===========
+[20:38:27:952]
+[20:38:28:036]     7560/I/NONE  /  5 | 
+[20:38:28:036]
+[20:38:28:036]
+[20:38:28:036]     7560/I/NONE  /  5 | capture sample: 512 -97 512 -94 len=240
+[20:38:28:036]     7560/I/NONE  /  5 | 
+[20:38:28:036]
+[20:38:28:036]
+[20:38:28:036]
+[20:38:28:412]     7916/I/NONE  /  5 | 
+[20:38:28:412]
+[20:38:28:412]
+[20:38:28:412]     7916/I/NONE  /  5 | capture sample: 512 -97 513 -96 len=240
+[20:38:28:412]     7916/I/NONE  /  5 | 
+[20:38:28:412]
+[20:38:28:412]
+[20:38:28:412]     7990/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:28:493]     7990/I/NONE  /  5 | ADC avg=508 max[10]=513 min[18]=504 delta=9
+[20:38:28:493]     7990/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:28:493]     7991/I/NONE  /  5 | ADC avg=-97 max[9]=-94 min[1]=-101 delta=7
+[20:38:28:493]     7991/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2040===========
+[20:38:28:493]
+[20:38:28:522]     8020/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0040===========
+[20:38:28:522]
+[20:38:28:788]     8272/I/NONE  /  5 | 
+[20:38:28:788]
+[20:38:28:788]
+[20:38:28:788]     8272/I/NONE  /  5 | capture sample: 508 -103 506 -103 len=240
+[20:38:28:788]     8272/I/NONE  /  5 | 
+[20:38:28:788]
+[20:38:28:788]
+[20:38:28:788]
+[20:38:29:063]     8532/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:29:063]     8532/I/NONE  /  5 | ADC avg=508 max[24]=512 min[4]=504 delta=8
+[20:38:29:063]     8532/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:29:063]     8532/I/NONE  /  5 | ADC avg=-106 max[27]=-101 min[37]=-110 delta=9
+[20:38:29:063]     8532/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2080===========
+[20:38:29:063]     8562/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0080===========
+[20:38:29:093]
+[20:38:29:161]     8628/I/NONE  /  5 | 
+[20:38:29:161]
+[20:38:29:161]
+[20:38:29:161]     8628/I/NONE  /  5 | capture sample: 426 -21 426 -19 len=240
+[20:38:29:161]     8628/I/NONE  /  5 | 
+[20:38:29:161]
+[20:38:29:161]
+[20:38:29:161]
+[20:38:29:538]     8984/I/NONE  /  5 | 
+[20:38:29:538]
+[20:38:29:538]
+[20:38:29:538]     8984/I/NONE  /  5 | capture sample: 428 -21 428 -21 len=240
+[20:38:29:538]     8984/I/NONE  /  5 | 
+[20:38:29:538]
+[20:38:29:538]
+[20:38:29:538]     9073/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:29:633]     9073/I/NONE  /  5 | ADC avg=427 max[16]=430 min[32]=424 delta=6
+[20:38:29:633]     9073/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:29:633]     9073/I/NONE  /  5 | ADC avg=-17 max[39]=-12 min[11]=-23 delta=11
+[20:38:29:633]     9073/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2100===========
+[20:38:29:633]
+[20:38:29:663]     9103/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0100===========
+[20:38:29:663]
+[20:38:29:912]     9340/I/NONE  /  5 | 
+[20:38:29:912]
+[20:38:29:912]
+[20:38:29:912]     9340/I/NONE  /  5 | capture sample: 298 115 293 113 len=240
+[20:38:29:912]     9340/I/NONE  /  5 | 
+[20:38:29:912]
+[20:38:29:912]
+[20:38:29:912]
+[20:38:30:203]     9614/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:30:203]     9614/I/NONE  /  5 | ADC avg=300 max[0]=304 min[42]=296 delta=8
+[20:38:30:203]     9614/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:30:203]     9614/I/NONE  /  5 | ADC avg=113 max[7]=117 min[3]=108 delta=9
+[20:38:30:203]     9614/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2200===========
+[20:38:30:203]     9644/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0200===========
+[20:38:30:232]     9696/I/NONE  /  5 | 
+[20:38:30:287]
+[20:38:30:287]
+[20:38:30:287]     9696/I/NONE  /  5 | capture sample: 44 378 39 380 len=240
+[20:38:30:287]     9696/I/NONE  /  5 | 
+[20:38:30:287]
+[20:38:30:287]
+[20:38:30:287]
+[20:38:30:663]    10052/I/NONE  /  5 | 
+[20:38:30:663]
+[20:38:30:663]
+[20:38:30:663]    10052/I/NONE  /  5 | capture sample: 40 384 33 380 len=240
+[20:38:30:663]    10052/I/NONE  /  5 | 
+[20:38:30:663]
+[20:38:30:663]
+[20:38:30:663]
+[20:38:30:773]    10155/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:30:773]    10155/I/NONE  /  5 | ADC avg=38 max[4]=42 min[42]=33 delta=9
+[20:38:30:773]    10155/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:30:773]    10155/I/NONE  /  5 | ADC avg=381 max[43]=385 min[13]=376 delta=9
+[20:38:30:773]    10155/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2400===========
+[20:38:30:773]    10185/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0400===========
+[20:38:30:802]
+[20:38:31:037]    10408/I/NONE  /  5 | 
+[20:38:31:037]
+[20:38:31:037]
+[20:38:31:037]    10408/I/NONE  /  5 | capture sample: 5 362 7 360 len=240
+[20:38:31:037]    10408/I/NONE  /  5 | 
+[20:38:31:037]
+[20:38:31:037]
+[20:38:31:037]
+[20:38:31:194]    10557/I/NONE  /  2 | CPU USAGE: busy=4 light=96 sys_deep=0 chip_deep=0
+[20:38:31:194]
+[20:38:31:344]    10696/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:31:344]    10696/I/NONE  /  5 | ADC avg=11 max[56]=16 min[20]=7 delta=9
+[20:38:31:344]    10696/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:31:344]    10696/I/NONE  /  5 | ADC avg=358 max[37]=362 min[41]=353 delta=9
+[20:38:31:344]    10696/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x2800===========
+[20:38:31:344]    10726/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x0800===========
+[20:38:31:374]    10764/I/NONE  /  5 | 
+[20:38:31:412]
+[20:38:31:412]
+[20:38:31:412]    10764/I/NONE  /  5 | capture sample: -426 944 -424 942 len=240
+[20:38:31:412]    10764/I/NONE  /  5 | 
+[20:38:31:412]
+[20:38:31:412]
+[20:38:31:412]
+[20:38:31:788]    11120/I/NONE  /  5 | 
+[20:38:31:788]
+[20:38:31:788]
+[20:38:31:788]    11120/I/NONE  /  5 | capture sample: -419 944 -424 942 len=240
+[20:38:31:788]    11120/I/NONE  /  5 | 
+[20:38:31:788]
+[20:38:31:788]
+[20:38:31:788]
+[20:38:31:913]    11238/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:31:913]    11238/I/NONE  /  5 | ADC avg=-422 max[22]=-416 min[12]=-428 delta=12
+[20:38:31:913]    11238/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:31:913]    11238/I/NONE  /  5 | ADC avg=938 max[11]=940 min[9]=935 delta=5
+[20:38:31:913]    11238/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:1 value:0x3000===========
+[20:38:31:913]    11268/I/NONE  /  1 | ===========Set the ret bit adc dc mic_ch:4 value:0x1000===========
+[20:38:31:943]
+[20:38:32:163]    11476/I/NONE  /  5 | 
+[20:38:32:163]
+[20:38:32:163]
+[20:38:32:163]    11476/I/NONE  /  5 | capture sample: -1351 2000 -1354 2001 len=240
+[20:38:32:163]    11476/I/NONE  /  5 | 
+[20:38:32:163]
+[20:38:32:163]
+[20:38:32:163]
+[20:38:32:498]    11779/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:32:498]    11779/I/NONE  /  5 | ADC avg=-1347 max[34]=-1344 min[6]=-1352 delta=8
+[20:38:32:498]    11779/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:32:498]    11779/I/NONE  /  5 | ADC avg=2000 max[7]=2010 min[33]=1994 delta=16
+[20:38:32:498]    11779/I/NONE  /  1 | ===========Dump adc dc register info: 1===========
+[20:38:32:498]    11779/I/NONE  /  1 | 0:   564:      -6
+[20:38:32:498]    11779/I/NONE  /  1 | 1:   561:      -9
+[20:38:32:498]    11779/I/NONE  /  1 | 2:   556:      -14
+[20:38:32:498]    11779/I/NONE  /  1 | 3:   553:      -17
+[20:38:32:498]    11779/I/NONE  /  1 | 4:   536:      -34
+[20:38:32:498]    11779/I/NONE  /  1 | 5:   508:      -62
+[20:38:32:498]    11779/I/NONE  /  1 | 6:   508:      -62
+[20:38:32:498]    11779/I/NONE  /  1 | 7:   427:      -143
+[20:38:32:498]    11779/I/NONE  /  1 | 8:   300:      -270
+[20:38:32:498]    11779/I/NONE  /  1 | 9:   38:      -532
+[20:38:32:498]    11779/I/NONE  /  1 | 10:   11:      -559
+[20:38:32:498]    11779/I/NONE  /  1 | 11:   -422:      -992
+[20:38:32:498]    11779/I/NONE  /  1 | 12:   -1347:      -1917
+[20:38:32:498]    11779/I/NONE  /  1 | 13:   570:      1
+[20:38:32:498]    11779/I/NONE  /  1 | bit:10 dc_val:11 offset:-559
+[20:38:32:498]    11779/I/NONE  /  1 | bit:1 dc_val:2 offset:-9
+[20:38:32:498]    11779/I/NONE  /  1 | adc dc calib channel:1 calib_offset:0x2402 calib_result:2
+[20:38:32:498]    11779/I/NONE  /  1 | ===========Dump adc dc register info: 4===========
+[20:38:32:498]    11779/I/NONE  /  1 | 0:   -167:      8
+[20:38:32:498]    11779/I/NONE  /  1 | 1:   -165:      10
+[20:38:32:498]    11779/I/NONE  /  1 | 2:   -156:      19
+[20:38:32:498]    11779/I/NONE  /  1 | 3:   -152:      23
+[20:38:32:498]    11779/I/NONE  /  1 | 4:   -138:      37
+[20:38:32:498]    11779/I/NONE  /  1 | 5:   -97:      78
+[20:38:32:498]    11779/I/NONE  /  1 | 6:   -106:      69
+[20:38:32:498]    11779/I/NONE  /  1 | 7:   -17:      158
+[20:38:32:498]    11779/I/NONE  /  1 | 8:   113:      288
+[20:38:32:498]    11779/I/NONE  /  1 | 9:   381:      556
+[20:38:32:498]    11779/I/NONE  /  1 | 10:   358:      533
+[20:38:32:498]    11779/I/NONE  /  1 | 11:   938:      1113
+[20:38:32:498]    11779/I/NONE  /  1 | 12:   2000:      2175
+[20:38:32:498]    11779/I/NONE  /  1 | 13:   -175:      0
+[20:38:32:498]    11780/I/NONE  /  1 | bit:7 dc_val:-17 offset:158
+[20:38:32:498]    11780/I/NONE  /  1 | bit:1 dc_val:-7 offset:10
+[20:38:32:498]    11780/I/NONE  /  1 | adc dc calib channel:4 calib_offset:0x0082 calib_result:-7
+[20:38:32:498]    11832/I/NONE  /  5 | 
+[20:38:32:537]
+[20:38:32:537]
+[20:38:32:537]    11832/I/NONE  /  5 | capture sample: 3 -7 3 -14 len=240
+[20:38:32:537]    11832/I/NONE  /  5 | 
+[20:38:32:537]
+[20:38:32:537]
+[20:38:32:537]
+[20:38:32:917]    12188/I/NONE  /  5 | 
+[20:38:32:917]
+[20:38:32:917]
+[20:38:32:917]    12188/I/NONE  /  5 | capture sample: 8 -7 8 -7 len=240
+[20:38:32:917]    12188/I/NONE  /  5 | 
+[20:38:32:917]
+[20:38:32:917]
+[20:38:32:917]
+[20:38:33:040]    12320/I/NONE  /  5 | #### adc_ch=120/I/NONE  /  5 | #### adc_ch=1 ####
+[20:38:33:075]    12320/I/NONE  /  5 | ADC avg=6 max[10]=10 min[6]=1 delta=9
+[20:38:33:075]    12320/I/NONE  /  5 | #### adc_ch=4 ####
+[20:38:33:075]    12320/I/NONE  /  5 | ADC avg=-13 max[25]=-8 min[47]=-17 delta=9
+[20:38:33:075]    12320/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:33:075]    12320/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:33:075]    12320/I/NONE  /  1 | nv ext magic 0x4e455854 valid len 1024
+[20:38:33:075]    12320/I/NONE  /  1 | generated crc32: 0x4e6c41, header crc: 0x4e6c41
+[20:38:33:075]    12320/I/NONE  /  1 | Nv extension is valid.
+[20:38:33:075]    12320/I/NONE  /  1 | Former nv ext valid len 1024
+[20:38:33:075]    12320/I/NONE  /  1 | Current FW version nv ext valid len 1024
+[20:38:33:075]    12321/I/NONE  /  1 | set mpu 0x20056d40 len 1536 result 0
+[20:38:33:075]    12337/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ec000,len = 0x1000,remain = 1,result = 0.
+[20:38:33:075]    12361/I/NONE= 0,result = 0.
+[20:38:33:113]    12378/I/NONE  /  1 | nv_extension_callback:type = 2, addr = 0x283ed000,len = 0x1000,remain = 1,result = 0.
+[20:38:33:113]
+[20:38:33:163]    12402/I/NONE  /  1 | nv_extension_callback:type = 1, addr = 0x283ed000,len = 0x1000,remain = 0,result = 0.
+[20:38:33:163]    12402/I/NONE  /  1 | ===========Dump adc dc calibrate result===========
+[20:38:33:163]    12402/I/NONE  /  1 | channel_index:                1
+[20:38:33:163]    12402/I/NONE  /  1 | calib_valid:                  1
+[20:38:33:163]    12402/I/NONE  /  1 | channel_map:                  0x0002
+[20:38:33:163]    12402/I/NONE  /  1 | dc_origin_value:              570
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_result:              6
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_reg_offset:          0x2402
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_reg_step:            0x8888
+[20:38:33:163]    12402/I/NONE  /  1 | ===========Dump adc dc calibrate result===========
+[20:38:33:163]    12402/I/NONE  /  1 | channel_index:                4
+[20:38:33:163]    12402/I/NONE  /  1 | calib_valid:                  1
+[20:38:33:163]    12402/I/NONE  /  1 | channel_map:                  0x0010
+[20:38:33:163]    12402/I/NONE  /  1 | dc_origin_value:              -175
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_result:              -13
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_reg_offset:          0x0082
+[20:38:33:163]    12402/I/NONE  /  1 | dc_calib_reg_step:            0x8888
+[20:38:33:163]    12422/I/NONE  /  1 | start_adc_capture_stream work:1 op:0 freq:0
+[20:38:33:163]    12422/I/NONE  /  1 | [af_stream_stop] id = 0, stream = 1
+[20:38:33:163]    12422/I/NONE  /  1 | codec_int_stream_stop: stream=1
+[20:38:33:163]    12422/I/NONE  /  1 | codec_hw_stop: stream=1
+[20:38:33:163]    12422/I/NONE  /  1 | need_ldo_on_cnt:0 reg_val_mic_bias_b:0334
+[20:38:33:163]    12485/I/NONE  /  1 | [af_stream_close] id = 0, stream = 1
+[20:38:33:229]    12485/I/NONE  /  1 | codec_int_stream_close: stream=1
+[20:38:33:229]    12485/I/NONE  /  1 | codec_int_stream_restore_chan_vol: stream=1
+[20:38:33:229]    12485/I/NONE  /  1 | codec_int_close: type=0 user_map=0x1
+[20:38:33:229]    12485/I/NONE  /  1 | codec_hw_close: type=0
+[20:38:33:229]    12490/I/NONE  /  1 | start_adc_capture_stream off
+[20:38:33:229]
+[20:38:33:299]    12550/I/NONE  /  1 | codec_adc_dc_load_calib_value ret=1
+[20:38:33:299]    12550/I/NONE  /  1 | codec_adc_dc_auto_load: CALIB_COST_TIME=8912, r=0
+[20:38:33:299]    12550/I/NONE  /  1 | codec_int_close: type=2 user_map=0x0
+[20:38:33:299]    12550/I/NONE  /  1 | codec_hw_close: type=2
+[20:38:33:299]    12555/I/BTAPP /  1 | [BT][APP]Configured BT addr is:
+[20:38:33:299]1e 57 34 45 56 67 
+[20:38:33:299]    12555/I/BTAPP /  1 | [BT][APP]Modified debug BT addr is:
+[20:38:33:299]5c 3f 05 57 4b 02 
+[20:38:33:299]
+[20:38:33:490]    12676/I/NONE  /  1 | BATTERY 0
+[20:38:33:490]    12676/I/NONE  /  1 | app_poweron_key_init
+[20:38:33:490]    12676/I/AUDFLG/  8 | [MEDIA][PLAYER]enter prompt handler thread.
+[20:38:33:490]    12676/I/NONE  /  1 | nvrec_dev_data_open,vermagic=0x2ba80
+[20:38:33:490]    12676/I/NONE  /  1 | Nv record dev version 2
+[20:38:33:490]    12677/I/NONE  /  1 | nvrec_dev_data_open: data len 0x140,dev_zone_flsh_crc=0xd9d63c00,dev_zone_crc=0xd9d63c00
+[20:38:33:490]    12677/I/NONE  /  1 | nvrec_dev_data_open: nv rec dev is valid.
+[20:38:33:490]    12677/I/NONE  /  1 | factory_section_open sucess btname:2700jtx
+[20:38:33:490]84 34 33 22 11 11 
+[20:38:33:490]1c 9c c2 56 34 12 
+[20:38:33:490]    12677/I/NONE  /  1 | [anc_assist_mic_reset] CH MAP: 0x10012
+[20:38:33:490]    12677/I/NONE  /  1 | [anc_assist_mic_reset] CH NUM: 3
+[20:38:33:490]    12677/I/NONE  /  1 | [app_anc_assist_register] user: 3
+[20:38:33:490]    12677/I/NONE  /  1 | [app_anc_assist_register] user: 2
+[20:38:33:490]    12677/I/NONE  /  1 | [app_anc_init] ...
+[20:38:33:490]    12677/I/NONE  /  1 | anc_howling_check_enable flag:1
+[20:38:33:490]    12677/I/NONE  /  1 | [app_anc_post_msg] event: 0, param: 0
+[20:38:33:490]    12677/I/NONE  /  6 | [app_anc_handle_process] evt: 0, arg0: 0, anc status :0
+[20:38:33:490]    12677/I/NONE  /  6 | [anc_load_cfg]:AUD_SECTION_STRUCT_VERSION=3!
+[20:38:33:490]    12677/I/NONE  /  6 | anccfg_loadfrom_audsec
+[20:38:33:490]    12677/I/NONE  /  6 | 0xffff,0xffff,0xffffffff
+[20:38:33:490]    12677/I/NONE  /  6 | Invalid aud section - magic
+[20:38:33:490]    12677/I/NONE  /  6 | 50.7k!!!!
+[20:38:33:490]    12677/I/NONE  /  6 | [anc_load_cfg] WARNING(1): Can not load anc coefficient from audio section!!!
+[20:38:33:490]    12677/I/NONE  /  6 | [app_anc_table_init] index_cfg_num: 5
+[20:38:33:490]    12677/I/NONE  /  6 | [app_anc_fade_init] ...
+[20:38:33:490]    12677/I/AUDFLG/  1 | [MEDIA][PLAYER]language is set to: 0
+[20:38:33:490]    12677/I/AUDFLG/  1 | [STRM_PLAYER][VOL][UPDATE] default
+[20:38:33:490]    12690/I/NONE  /  1 | BTC:1501p work mode patch version:22031800
+[20:38:33:490]    12692/I/NONE  /  1 | reg=4,v=f18
+[20:38:33:490]    12693/I/NONE  /  1 | reg=9,v=6656
+[20:38:33:490]    12694/I/NONE  /  1 | reg=8f,v=ff42
+[20:38:33:490]    12695/I/NONE  /  1 | reg=2c,v=2446
+[20:38:33:490]    12696/I/NONE  /  1 | reg=cb,v=e0
+[20:38:33:490]    12697/I/NONE  /  1 | reg=c1,v=1a80
+[20:38:33:490]    12698/I/NONE  /  1 | reg=49,v=9004
+[20:38:33:490]    12699/I/NONE  /  1 | reg=147,v=4055
+[20:38:33:490]    12700/I/NONE  /  1 | reg=cc,v=81c4
+[20:38:33:490]    12701/I/NONE  /  1 | reg=ca,v=7800
+[20:38:33:490]    12702/I/NONE  /  1 | reg=160,v=40c
+[20:38:33:490]    12703/I/NONE  /  1 | reg=15c,v=38a2
+[20:38:33:490]    12704/I/NONE  /  1 | reg=4c,v=8f
+[20:38:33:490]    12705/I/NONE  /  1 | reg=51,v=35e
+[20:38:33:490]    12706/I/NONE  /  1 | reg=bf,v=1002
+[20:38:33:490]    12707/I/NONE  /  1 | reg=c5,v=43
+[20:38:33:490]    12708/I/NONE  /  1 | reg=122,v=700
+[20:38:33:490]    12709/I/NONE  /  1 | reg=2b,v=e00
+[20:38:33:490]    12710/I/NONE  /  1 | reg=81,v=8
+[20:38:33:490]    12711/I/NONE  /  1 | reg=13,v=0
+[20:38:33:490]    12712/I/NONE  /  1 | reg=14,v=2024
+[20:38:33:490]    12713/I/NONE  /  1 | reg=16,v=150
+[20:38:33:490]    12714/I/NONE  /  1 | reg=12,v=6a
+[20:38:33:490]    12715/I/NONE  /  1 | reg=9a,v=451
+[20:38:33:490]    12716/I/NONE  /  1 | reg=9f,v=100
+[20:38:33:490]    12717/I/NONE  /  1 | reg=ea,v=1f47
+[20:38:33:490]    12718/I/NONE  /  1 | reg=16,v=150
+[20:38:33:490]    12719/I/NONE  /  1 | reg=52,v=10
+[20:38:33:490]    12720/I/NONE  /  1 | reg=a0,v=d08
+[20:38:33:490]    12721/I/NONE  /  1 | reg=a2,v=3286
+[20:38:33:490]    12722/I/NONE  /  1 | reg=9e,v=160c
+[20:38:33:490]    12723/I/NONE  /  1 | reg=92,v=7298
+[20:38:33:490]    12724/I/NONE  /  1 | reg=27,v=4a04
+[20:38:33:490]    12725/I/NONE  /  1 | reg=146,v=461b
+[20:38:33:490]    12726/I/NONE  /  1 | reg=ce,v=85
+[20:38:33:490]    12727/I/NONE  /  1 | reg=28,v=3e10
+[20:38:33:490]    12728/I/NONE  /  1 | reg=90,v=3808
+[20:38:33:490]    12729/I/NONE  /  1 | reg=c4,v=7c80
+[20:38:33:490]    12730/I/NONE  /  1 | reg=162,v=1807
+[20:38:33:490]    12731/I/NONE  /  1 | reg=d0,v=3a4
+[20:38:33:490]    12732/I/NONE  /  1 | reg=9c,v=0
+[20:38:33:490]    12733/I/NONE  /  1 | reg=9d,v=503
+[20:38:33:490]    12734/I/NONE  /  1 | reg=19,v=c000
+[20:38:33:490]    12735/I/NONE  /  1 | reg=41,v=1cf
+[20:38:33:490]    12736/I/NONE  /  1 | reg=42,v=1cf
+[20:38:33:490]    12737/I/NONE  /  1 | reg=43,v=24f
+[20:38:33:490]    12738/I/NONE  /  1 | reg=44,v=1cc
+[20:38:33:490]    12739/I/NONE  /  1 | reg=45,v=1c4
+[20:38:33:490]    12740/I/NONE  /  1 | reg=46,v=5b4
+[20:38:33:490]    12741/I/NONE  /  1 | reg=47,v=da4
+[20:38:33:490]    12742/I/NONE  /  1 | reg=48,v=d84
+[20:38:33:490]    12743/I/NONE  /  1 | reg=39,v=e03f
+[20:38:33:490]    12744/I/NONE  /  1 | reg=3a,v=e018
+[20:38:33:490]    12745/I/NONE  /  1 | reg=3b,v=6048
+[20:38:33:490]    12746/I/NONE  /  1 | reg=3c,v=6048
+[20:38:33:490]    12747/I/NONE  /  1 | reg=3d,v=6088
+[20:38:33:490]    12748/I/NONE  /  1 | reg=3e,v=6088
+[20:38:33:490]    12749/I/NONE  /  1 | reg=3f,v=6088
+[20:38:33:490]    12750/I/NONE  /  1 | reg=40,v=6088
+[20:38:33:490]    12751/
+[20:38:33:596]I/NONE  /  1 | reg=12c,v=3e
+[20:38:33:596]    12752/I/NONE  /  1 | reg=12d,v=26f
+[20:38:33:596]    12753/I/NONE  /  1 | reg=12e,v=3e
+[20:38:33:596]    12754/I/NONE  /  1 | reg=12f,v=3e
+[20:38:33:596]    12755/I/NONE  /  1 | reg=130,v=3e
+[20:38:33:596]    12756/I/NONE  /  1 | reg=131,v=3e
+[20:38:33:596]    12757/I/NONE  /  1 | reg=132,v=3e
+[20:38:33:596]    12758/I/NONE  /  1 | reg=133,v=3e
+[20:38:33:596]    12759/I/NONE  /  1 | reg=84,v=9294
+[20:38:33:596]    12760/I/NONE  /  1 | reg=85,v=24
+[20:38:33:596]    12761/I/NONE  /  1 | reg=2d,v=3b20
+[20:38:33:596]    12762/I/NONE  /  1 | reg=cf,v=ff00
+[20:38:33:596]    12763/I/NONE  /  1 | reg=d1,v=a200
+[20:38:33:596]    12764/I/NONE  /  1 | reg=d9,v=307
+[20:38:33:596]    12765/I/NONE  /  1 | reg=188,v=3f
+[20:38:33:596]    12766/I/NONE  /  1 | reg=5f,v=1cf
+[20:38:33:596]    12767/I/NONE  /  1 | reg=60,v=1cf
+[20:38:33:596]    12768/I/NONE  /  1 | reg=61,v=24f
+[20:38:33:596]    12769/I/NONE  /  1 | reg=62,v=1cc
+[20:38:33:596]    12770/I/NONE  /  1 | reg=63,v=1c4
+[20:38:33:596]    12771/I/NONE  /  1 | reg=64,v=5b4
+[20:38:33:596]    12772/I/NONE  /  1 | reg=65,v=da4
+[20:38:33:596]    12773/I/NONE  /  1 | reg=66,v=d84
+[20:38:33:596]    12774/I/NONE  /  1 | reg=67,v=e03f
+[20:38:33:596]    12775/I/NONE  /  1 | reg=68,v=e018
+[20:38:33:596]    12776/I/NONE  /  1 | reg=69,v=6048
+[20:38:33:596]    12777/I/NONE  /  1 | reg=6a,v=6048
+[20:38:33:596]    12778/I/NONE  /  1 | reg=6b,v=6088
+[20:38:33:596]    12779/I/NONE  /  1 | reg=6c,v=6088
+[20:38:33:596]    12780/I/NONE  /  1 | reg=6d,v=6088
+[20:38:33:596]    12781/I/NONE  /  1 | reg=6e,v=6088
+[20:38:33:596]    12782/I/NONE  /  1 | reg=13c,v=3e
+[20:38:33:596]    12783/I/NONE  /  1 | reg=13d,v=26f
+[20:38:33:596]    12784/I/NONE  /  1 | reg=13e,v=3e
+[20:38:33:596]    12785/I/NONE  /  1 | reg=13f,v=3e
+[20:38:33:596]    12787/I/NONE  /  1 | reg=140,v=3e
+[20:38:33:596]    12788/I/NONE  /  1 | reg=141,v=3e
+[20:38:33:596]    12789/I/NONE  /  1 | reg=142,v=3e
+[20:38:33:596]    12790/I/NONE  /  1 | reg=143,v=3e
+[20:38:33:596]    12791/I/NONE  /  1 | reg=82,v=9294
+[20:38:33:596]    12792/I/NONE  /  1 | reg=83,v=24
+[20:38:33:596]    12793/I/NONE  /  1 | reg=91,v=8220
+[20:38:33:596]    12794/I/NONE  /  1 | reg=9b,v=5748
+[20:38:33:596]    12795/I/NONE  /  1 | reg=a4,v=8164
+[20:38:33:596]    12796/I/NONE  /  1 | reg=23,v=28bf
+[20:38:33:596]    12797/I/NONE  /  1 | reg=1,v=101
+[20:38:33:596]    12798/I/NONE  /  1 | reg=a,v=c01
+[20:38:33:596]    12799/I/NONE  /  1 | reg=e6,v=f533
+[20:38:33:596]    12800/I/NONE  /  1 | reg=d7,v=447
+[20:38:33:596]    12801/I/NONE  /  1 | reg=da,v=77
+[20:38:33:596]    12802/I/NONE  /  1 | reg=d8,v=36bf
+[20:38:33:596]    12803/I/NONE  /  1 | reg=150,v=4dbd
+[20:38:33:596]    12803/I/NONE  /  1 | SDK default rf config
+[20:38:33:596]    12803/I/NONE  /  1 | btdrv_txpower_calib efuse: 0x0
+[20:38:33:596]    12803/I/NONE  /  1 | btdrv_txpower_calib invalid efuse or invalid calib value.
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x14c,[in:-2 dbm,out:0x8d53]
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x14d,[in:2 dbm,out:0x8d57]
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x14e,[in:7 dbm,out:0x89d7]
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x14f,[in:11 dbm,out:0x4dad]
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x150,[in:15 dbm,out:0x6dbf]
+[20:38:33:596]    12803/I/NONE  /  1 | BT:TX pwr reg=0x152,[in:8 dbm,out:0x4daa]
+[20:38:33:596]    12803/I/NONE  /  1 | BLE:TX pwr reg=0x154,[in:-2 dbm,out:0x8d53]
+[20:38:33:596]    12803/I/NONE  /  1 | BLE:TX pwr reg=0x155,[in:2 dbm,out:0x8d57]
+[20:38:33:596]    12803/I/NONE  /  1 | BLE:TX pwr reg=0x156,[in:7 dbm,out:0x89d7]
+[20:38:33:596]    12803/I/NONE  /  1 | BLE:TX pwr reg=0x157,[in:11 dbm,out:0x4dad]
+[20:38:33:596]    12803/I/NONE  /  1 | BLE:TX pwr reg=0x158,[in:15 dbm,out:0x6dbf]
+[20:38:33:596]    12824/I/NONE  /  1 | bt_drv_rf_init_xtal_fcap XTAL 0x03=0x7f
+[20:38:33:596]    12824/I/NONE  /  1 | btdrv_config_init
+[20:38:33:596]    12825/I/NONE  /  1 | btdrv_SendData
+[20:38:33:596]01 81 fc 08 bf ee cd fa db bd 7b 87 
+[20:38:33:596]    12830/I/NONE  /32E | tx
+[20:38:33:596]    12830/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:596]04 0e 04 05 81 fc 00 
+[20:38:33:596]    12831/I/NONE  /  1 | btdrv_SendData
+[20:38:33:596]01 86 fc 40 03 01 00 00 01 00 00 06 05 01 00 00 01 01 01 0b 01 15 b0 02 00 00 00 00 00 01 05 00 08 01 01 00 c8 03 0a 01 00 01 01 00 00 7d 00 00 1e 00 00 00 01 96 e2 04 01 09 00 00 00 00 00 06 0c 01 00 08 
+[20:38:33:596]    12837/I/NONE  /32E | tx
+[20:38:33:596]    12837/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:596]04 0e 04 05 86 fc 00 
+[20:38:33:596]    12838/I/NONE  /  1 | btdrv_SendData
+[20:38:33:596]01 c3 fc 25 14 01 ff 00 00 28 08 34 9c 00 68 00 40 06 90 01 0a 02 78 50 01 01 60 00 08 02 06 06 01 01 00 01 01 0a 02 02 06 
+[20:38:33:596]    12844/I/NONE  /32E | tx
+[20:38:33:596]    12844/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:596]04 0e 04 05 c3 fc 00 
+[20:38:33:596]    12845/I/NONE  /  1 | btdrv_SendData
+[20:38:33:596]01 c4 fc 1d 01 00 00 00 16 3f 2b 01 01 00 00 02 02 00 00 06 06 06 03 01 01 01 02 02 01 01 0f 00 00 
+[20:38:33:596]    12851/I/NONE  /32E | tx
+[20:38:33:596]    12851/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 c4 fc 00 
+[20:38:33:676]    12852/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 c5 fc 27 01 00 01 01 01 00 00 00 00 00 01 00 00 00 0f 01 55 00 00 00 50 00 00 00 ff 00 01 00 14 0a 00 14 28 00 05 0f 01 00 00 
+[20:38:33:676]    12859/I/NONE  /32E | tx
+[20:38:33:676]    12859/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 c5 fc 00 
+[20:38:33:676]    12860/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 88 fc bd 01 00 01 b9 04 ff fe 9c 0f 02 0e 00 e8 03 00 ff ff ab 7f 01 01 01 01 00 00 00 00 03 03 0c 06 06 1c 09 09 1c 0c 0c 1c 0f 0f 1c 12 12 1c 15 15 1c 7f 18 7f 7f 1b 7f 7f 1e 7f 7f 21 7f 7f 24 7f 7f 27 7f 7f 2a 7f 3b 00 b0 2e 00 b0 22 00 b0 13 00 b
+[20:38:33:676]    12866/I/NONE  /32E | tx
+[20:38:33:676]    12866/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 88 fc 00 
+[20:38:33:676]    12867/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 82 fc 09 02 1f 03 00 00 00 00 00 00 
+[20:38:33:676]    12873/I/NONE  /32E | tx
+[20:38:33:676]    12873/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 82 fc 00 
+[20:38:33:676]    12874/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 83 fc 07 42 0c 3c 00 12 00 12 
+[20:38:33:676]    12880/I/NONE  /32E | tx
+[20:38:33:676]    12880/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 83 fc 00 
+[20:38:33:676]    12881/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 b3 fc 06 64 00 ff fe 05 32 
+[20:38:33:676]    12887/I/NONE  /32E | tx
+[20:38:33:676]    12887/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 b3 fc 00 
+[20:38:33:676]    12888/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 ca fc 0e 6e 78 0a 28 14 01 00 00 01 01 00 01 40 05 
+[20:38:33:676]    12902/I/NONE  /32E | tx
+[20:38:33:676]    12902/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 ca fc 00 
+[20:38:33:676]    12903/I/NONE  /  1 | btdrv_SendData
+[20:38:33:676]01 cd fc 16 01 01 06 01 ff 01 ff 00 ff 00 ff 00 ff 00 ff 00 ff 00 ff 00 ff 00 
+[20:38:33:676]    12904/I/NONE  /32E | tx
+[20:38:33:676]    12905/I/NONE  /34E | btdrv_rx len:7
+[20:38:33:676]04 0e 04 05 cd fc 00 
+[20:38:33:676]    12906/I/NONE  /  1 | btdrv_bt_modem_config
+[20:38:33:676]    12906/I/NONE  /  1 | reg=22,v=5482
+[20:38:33:676]    12906/I/NONE  /  1 | reg=22,new v=548a
+[20:38:33:676]    12906/I/NONE  /  1 | lp clk: 30379
+[20:38:33:676]    12906/I/NONE  /  1 | BT_REG_OP:ble audio config
+[20:38:33:676]    12906/I/NONE  /  1 | BT_REG_OP:afh rxgain:2
+[20:38:33:676]
+[20:38:33:676]    12906/I/NONE  /  1 | bt_drv_reg_op_set_hiaudio_sco,en=1
+[20:38:33:676]    12906/I/NONE  /  1 | btdrv_play_trig_mode_set:1
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg_store:
+[20:38:33:676]
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=2b,v=e00
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=2c,v=2446
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=81,v=8
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=95,v=30
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=bf,v=1002
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=a6,v=1a42
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=e7,v=6086
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=e8,v=10
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=dd,v=0
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=de,v=a000
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=df,v=0
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=e0,v=114
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=d1,v=a200
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=f,v=0
+[20:38:33:676]    12906/I/NONE  /  1 | rx reg=c1,v=1a80
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=2b,v=e00
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=2b,v=e00
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=23,v=28bf
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=c8,v=5b4d
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=27,v=4a04
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=27,v=4a04
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=15c,v=38a2
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=147,v=4055
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg=160,v=40c
+[20:38:33:676]    12907/I/NONE  /  1 | 0xd0350248:bb3086
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xd0340020:10e01c0
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xd0220c00:0
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xD0330020:0
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xD0350218:0
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xD0350300:3ff00405
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | 0xD0350308:4010300c
+[20:38:33:676]
+[20:38:33:676]    12907/I/NONE  /  1 | rx reg_set:
+[20:38:33:676]
+[20:38:33:676]    12909/I/NONE  /  1 |  0xd0350248 : bb3086 
+[20:38:33:676]    12909/I/NONE  /  1 |  0xd0340020 : 30e01c0 
+[20:38:33:676]    12909/I/NONE  /  1 |  0xd0350240 : 1ac5b025 
+[20:38:33:676]    12909/I/NONE  /  1 |  0xd0220c00 : 0 
+[20:38:33:676]    12909/I/NONE  /  1 |  0xD0330020 : 200002 
+[20:38:33:676]    12909/I/NONE  /  1 |  0xD0350218 : 583 
+[20:38:33:676]    12922/I/NONE  /  1 | txPullingPhaseCnt_get log_cal_value=225.
+[20:38:33:676]
+[20:38:33:676]    12925/I/NONE  /  1 | syspool_init: 0x200b1498,0xb7868
+[20:38:33:676]    12925/I/NONE  /  1 | [syspool_get_buff] ptr=0x200b1498 size=90112 free=751720 user=0xc068ca5
+[20:38:33:676]    12925/I/NONE  /  1 | [med_heap_add_block] g_block_index=0 begin_addr=0x200b1498 size=90112
+[20:38:33:676]    12925/I/NONE  /  1 | [multi_heap_register_impl] start=0x200b1498 size=90112 user=0xc0b9d55
+[20:38:33:699]    12925/I/NONE  /  1 | bt_iqimb_test_ex reg_store:
+[20:38:33:699]
+[20:38:33:699]    12925/I/NONE  /  1 | rx reg=de,v=9800
+[20:38:33:699]    12925/I/NONE  /  1 | rx reg=df,v=3
+[20:38:33:699]    12925/I/NONE  /  1 | rx reg=80,v=0
+[20:38:33:699]    12925/I/NONE  /  1 | rx reg=7f,v=0
+[20:38:33:699]    12925/I/NONE  /  1 | rx reg=20,v=0
+[20:38:33:699]    12925/I/NONE  /  1 | malloc ini
+[20:38:33:699]    12926/I/NONE  /  1 | malloc ok
+[20:38:33:699]
+[20:38:33:746]    12976/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9640, d0350248=0x80bb80d6, d0220c00=0x800a0003
+[20:38:33:746]    13033/I/NONE  /  1 | bt_tx_pulling_write 0x164=0xb4 , 0x17c=0x34
+[20:38:33:802]    13033/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x96e0, d0350248=0x80bc8c8c, d0220c00=0x800a000d
+[20:38:33:802]
+[20:38:33:862]    13089/I/NONE  /  1 | bt_tx_pulling_write 0x165=0x18 , 0x17c=0x18
+[20:38:33:862]    13089/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9780, d0350248=0x80bd9842, d0220c00=0x800a0017
+[20:38:33:862]    13145/I/NONE  /  1 | bt_tx_pulling_write 0x166=0x34 , 0x17d=0x34
+[20:38:33:921]    13145/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9820, d0350248=0x80bea3f9, d0220c00=0x800a0021
+[20:38:33:921]
+[20:38:33:980]    13201/I/NONE  /  1 | bt_tx_pulling_write 0x167=0x10 , 0x17d=0x10
+[20:38:33:980]    13201/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x98c0, d0350248=0x80bfafaf, d0220c00=0x800a002b
+[20:38:33:980]    13257/I/NONE  /  1 | bt_tx_pulling_write 0x168=0x14 , 0x17e=0x14
+[20:38:34:042]    13257/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9960, d0350248=0x80c0bb66, d0220c00=0x800a0035
+[20:38:34:042]
+[20:38:34:099]    13314/I/NONE  /  1 | bt_tx_pulling_write 0x169=0x8 , 0x17e=0x8
+[20:38:34:099]    13314/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9a00, d0350248=0x80c1c71c, d0220c00=0x800a003f
+[20:38:34:099]    13370/I/NONE  /  1 | bt_tx_pulling_write 0x16a=0x8 , 0x17f=0x8
+[20:38:34:158]    13370/I/NONE  /  1 | tx_pulling_rf_dig_set rf_de=0x9aa0, d0350248=0x80c2d2d2, d0220c00=0x800a0049
+[20:38:34:158]
+[20:38:34:219]    13426/I/NONE  /  1 | bt_tx_pulling_write 0x16b=0xe0 , 0x17f=0x60
+[20:38:34:219]    13426/I/NONE  /  1 | use time: 516 ms
+[20:38:34:219]    13426/I/NONE  /  1 | reg_reset:
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | reg_reset:
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xd0350248:bb3086
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xd0340020:10e01c0
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xd0220c00:0
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xD0330020:0
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xD0350218:0
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xD0350300:3ff00405
+[20:38:34:219]
+[20:38:34:219]    13426/I/NONE  /  1 | 0xD0350308:4010300c
+[20:38:34:219]
+[20:38:34:219]    13465/I/NONE  /  1 | FINAL DC best_i=-3,best_q=0,e=1128,energy_min=1025
+[20:38:34:258]    13521/I/NONE  /  1 | FINAL 0,best_g=1,best_p=34,e=130,energy_min=112
+[20:38:34:317]
+[20:38:34:360]    13562/I/NONE  /  1 | FINAL 1,best_g=4,best_p=32,e=53,energy_min=103
+[20:38:34:360]    13602/I/NONE  /  1 | FINAL 2,best_g=6,best_p=32,e=18,energy_min=83
+[20:38:34:421]    13602/I/NONE  /  1 | use time: 175 ms
+[20:38:34:421]    13602/I/NONE  / 10 | intersys_tx_thread_id 0x200a8518
+[20:38:34:421]
+[20:38:34:421]    13602/I/NONE  / 10 | intersys_rx_thread_id 0x200a8728
+[20:38:34:421]
+[20:38:34:421]    13602/I/BTAPP / 10 | [BT][APP]app_bt_init_config_postphase red prompt 0000
+[20:38:34:421]    13602/I/BTAPP / 10 | [BT][APP]app_bt_init_config_postphase red a2dp non-prompt 001
+[20:38:34:421]    13602/I/BTAPP / 10 | [BT][APP]app_bt_init_config_postphase red sco prompt 1113
+[20:38:34:421]    13602/I/BTAPP / 10 | [BT][APP]app_bt_manager_init sco_prompt_play_mode 1 3
+[20:38:34:421]    13602/I/BTAPP / 10 | [BT][APP]ACCEPT 2nd SCO
+[20:38:34:421]    13603/I/BTPRF / 10 | bt_if LIB_INFO=2d666e1e87-dirty
+[20:38:34:421]    13603/I/BTPRF / 10 | bt_profiles LIB_INFO=2d666e1e87-dirty
+[20:38:34:421]    13603/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x2007090c
+[20:38:34:421]    13603/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x20070e94
+[20:38:34:421]    13603/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x2007141c
+[20:38:34:421]    13603/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x200719a4
+[20:38:34:421]    13604/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x20071f2c
+[20:38:34:421]    13604/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x200724b4
+[20:38:34:421]    13604/I/BTPRF / 10 | :_sdp_add_to_ctl_list:list 0x20057f7c, node 0x20072a3c
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_cmgr_handler_init:node 0x20073324, next 0x20073324
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_me_register_global_handler 1765
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_me_event_manager_init 128
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_init:channel 0x200734bc, ctl 0x2007436c
+[20:38:34:421]    13604/I/BTPRF / 10 | sdp_server_add_global_record:add node 0x200838cc to list, record 0x200838cc, handle 0x10000
+[20:38:34:421]    13604/I/BTPRF / 10 | sdp_server_add_global_record:add node 0x200838e8 to list, record 0x200838e8, handle 0x10001
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_init:channel 0x20073c14, ctl 0x20074640
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_alloc_avrcp_ct_channel:channel=0x200734bc,index=0,free=0
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_register:channel 0x200734bc cb 0xc0c4da5
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_init 983 st:0
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_alloc_avrcp_ct_channel:channel=0x200734bc,index=0,free=1
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_alloc_avrcp_ct_channel:channel=0x20073c14,index=1,free=0
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_register:channel 0x20073c14 cb 0xc0c4da5
+[20:38:34:421]    13604/I/BTPRF / 10 | btif_avrcp_init 983 st:0
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_a2dp_init 1046
+[20:38:34:421]    13604/I/BTPRF / 10 | sdp_server_add_global_record:add node 0x20083894 to list, record 0x20083894, handle 0x10002
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_a2dp_alloc_sink_stream 1092
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_a2dp_alloc_sink_stream  stream: 0x20074be0, ->a2dp_stream 0x20074928
+[20:38:34:421]    13604/I/NONE  / 10 | _sbrk: incr 72 cur=0x200b04b8
+[20:38:34:421]
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:0
+[20:38:34:421]    13604/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:2
+[20:38:34:421]    13604/I/NONE  / 10 | a2dp_codec_lc3_init
+[20:38:34:421]    13604/I/NONE  / 10 | a2dp_codec_lc3_common_init
+[20:38:34:421]    13604/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elemLen = 10 
+[20:38:34:421]
+[20:38:34:421]    13604/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elements->[0]=0x7d,[1]=0x02,[2]=0x00,[3]=0x00,[4]=0x36
+[20:38:34:421]
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elements->[5]=0x4c,[6]=0x07,[7]=0x07,[8]=0x01,[9]=0x4b
+[20:38:34:421]
+[20:38:34:421]    13605/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:255
+[20:38:34:421]    13605/D/BTPRF / 10 | btif_a2dp_alloc_sink_stream 1092
+[20:38:34:421]    13605/D/BTPRF / 10 | btif_a2dp_alloc_sink_stream  stream: 0x20074bec, ->a2dp_stream 0x20074a24
+[20:38:34:421]    13605/I/NONE  / 10 | _sbrk: incr 72 cur=0x200b0500
+[20:38:34:421]
+[20:38:34:421]    13605/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:0
+[20:38:34:421]    13605/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:2
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_codec_lc3_init
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_codec_lc3_common_init
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elemLen = 10 
+[20:38:34:421]
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elements->[0]=0x7d,[1]=0x02,[2]=0x00,[3]=0x00,[4]=0x36
+[20:38:34:421]
+[20:38:34:421]    13605/I/NONE  / 10 | a2dp_lc3_avdtpcodec.elements->[5]=0x4c,[6]=0x07,[7]=0x07,[8]=0x01,[9]=0x4b
+[20:38:34:456]
+[20:38:34:456]    13605/D/BTPRF / 10 | btif_a2dp_register 1000 codec type:255
+[20:38:34:456]    13605/I/BTPRF / 10 | sdp_server_add_global_record:add node 0x20081958 to list, record 0x20081958, handle 0x10003
+[20:38:34:456]    13605/D/BTPRF / 10 | #### btif_hf_alloc_channel max channel 2, current 0
+[20:38:34:456]
+[20:38:34:456]    13605/D/BTPRF / 10 | #### btif_hf_alloc_channel max channel 2, current 1
+[20:38:34:456]
+[20:38:34:456]    13605/I/BTAPP / 10 | [BT][APP]app_hfp_mute_upstream devId 0 isMute 1
+[20:38:34:456]    13605/I/NONE  / 10 | [multi_heap_register_impl] start=0x20064694 size=5376 user=0xc080261
+[20:38:34:456]    13605/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 03 0c 00 
+[20:38:34:456]    13606/I/BTAPP /  1 | [BT][APP]BesbtThread: 0x200a8518
+[20:38:34:456]
+[20:38:34:456]    13607/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 03 0c 00 
+[20:38:34:456]    13608/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 26 0c 02 43 00 
+[20:38:34:456]    13608/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 26 0c 00 
+[20:38:34:456]    13608/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 05 10 00 
+[20:38:34:456]    13608/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 0b 05 05 10 00 fd 03 ff 07 00 04 00 
+[20:38:34:456]    13608/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 33 0c 07 20 03 b4 06 00 06 00 
+[20:38:34:456]    13608/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 33 0c 00 
+[20:38:34:456]    13608/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 31 0c 01 01 
+[20:38:34:456]    13609/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 31 0c 00 
+[20:38:34:456]    13609/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 18 0c 02 00 20 
+[20:38:34:456]    13609/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 18 0c 00 
+[20:38:34:456]    13609/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 17 0c 00 
+[20:38:34:456]    13609/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 06 05 17 0c 00 00 20 
+[20:38:34:456]    13609/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 72 fc 07 01 1c 9c c2 56 34 12 
+[20:38:34:456]    13610/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 72 fc 00 
+[20:38:34:456]    13610/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 72 fc 07 00 84 34 33 22 11 11 
+[20:38:34:456]    13610/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 72 fc 00 
+[20:38:34:456]    13610/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 01 0c 08 ff ff ff ff ff ff ff 1f 
+[20:38:34:456]    13610/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 01 0c 00 
+[20:38:34:456]    13611/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 01 20 08 ff ff ff ff 03 00 00 00 
+[20:38:34:456]    13611/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 01 20 00 
+[20:38:34:456]    13611/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 01 10 00 
+[20:38:34:456]    13611/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 0c 05 01 10 00 0b 15 01 0b b0 02 15 01 
+[20:38:34:456]    13611/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 03 10 00 
+[20:38:34:456]    13611/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 0c 05 03 10 00 bf ee cd fa db bd 7b 87 
+[20:38:34:456]0xbf 0xee 0xcd 0xfa 0xdb 0xbd 0x7b 0x87 
+[20:38:34:456]    13612/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 09 10 00 
+[20:38:34:456]    13612/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 0a 05 09 10 00 84 34 33 22 11 11 
+[20:38:34:456]    13612/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 44 0c 00 
+[20:38:34:456]    13612/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 05 05 44 0c 00 00 
+[20:38:34:456]    13612/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 5a 0c 00 
+[20:38:34:456]    13612/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 05 05 5a 0c 00 00 
+[20:38:34:456]    13613/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 56 0c 01 01 
+[20:38:34:456]    13613/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 56 0c 00 
+[20:38:34:456]    13613/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 24 0c 03 04 04 24 
+[20:38:34:456]    13613/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 24 0c 00 
+[20:38:34:456]    13613/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 13 0c f8 62 65 73 74 31 35 30 31 70 5f 69 62 72 74 5f 61 6e 63 2e 73 68 31 31 2e 78 69 65 6a 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[20:38:34:456]    13614/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 13 0c 00 
+[20:38:34:456]    13614/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 8f fc 04 11 00 00 00 
+[20:38:34:456]    13614/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 8f fc 00 
+[20:38:34:456]    13614/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 5b 0c 01 00 
+[20:38:34:456]    13614/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 5b 0c 00 
+[20:38:34:456]    13614/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 1c 0c 04 00 08 12 00 
+[20:38:34:456]    13615/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 1c 0c 00 
+[20:38:34:456]    13615/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 1e 0c 04 00 08 12 00 
+[20:38:34:456]    13615/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 1e 0c 00 
+[20:38:34:456]    13615/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 43 0c 01 01 
+[20:38:34:456]    13615/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 43 0c 00 
+[20:38:34:456]    13615/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 47 0c 01 01 
+[20:38:34:456]    13616/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 47 0c 00 
+[20:38:34:456]    13616/I/NONE  / 10 | [TX]:
+[20:38:34:456]01 0f 08 02 00 00 
+[20:38:34:456]    13616/I/NONE  / 11 | [RX]:
+[20:38:34:456]04 0e 04 05 0f 08 00 
+[20:38:34:456]    13616/I/NONE  / 10 | nvrec_dev_localname_addr_init: nv dev data valid
+[20:38:34:456]    13616/I/NONE  / 10 | BT addr is:
+[20:38:34:456]84 34 33 22 11 11 
+[20:38:34:456]    13616/I/NONE  / 10 | BLE addr is:
+[20:38:34:456]1c 9c c2 56 34 12 
+[20:38:34:456]    13616/I/NONE  / 10 | localname=2700jtx, namelen=7
+[20:38:34:456]    13616/I/NONE  / 10 | blename=test, namelen=4
+[20:38:34:456]    13616/I/BTPRF / 10 | bt_stack_config
+[20:38:34:456]    13616/I/BTPRF
+[20:38:34:490] / 10 | btif_me_set_inquiry_mode:mode=0x2
+[20:38:34:490]    13617/I/NONE  / 10 | app_notify_stack_ready 0 1
+[20:38:34:490]    13617/I/IBRTAP/ 10 | [IBRT_TRACE]app_ibrt_if_stack_is_ready
+[20:38:34:490]    13617/I/BTPRF / 10 | btm_chip_init : stack_ready!
+[20:38:34:490]    13617/I/NONE  / 10 | [TX]:
+[20:38:34:490]01 13 0c f8 32 37 30 30 6a 74 78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[20:38:34:490]    13617/I/NONE  /  1 | app_wait_stack_ready: wait:11 ms
+[20:38:34:490]    13617/I/NONE  /  1 | stack init done
+[20:38:34:490]    13617/I/BTAPP / 10 | [BT][APP]func:0x0c0d4329,param0:0x00000000, param1:0x00000000
+[20:38:34:490]    13617/I/NONE  / 11 | [RX]:
+[20:38:34:490]04 0e 04 05 13 0c 00 
+[20:38:34:490]    13617/I/BTPRF / 10 | btif_me_register_global_handler 1765
+[20:38:34:490]    13617/I/IBRTAP/ 10 | [IBRT_TRACE]tws_ibrt LIB_INFO=2d666e1e87-dirty
+[20:38:34:490]    13618/I/NONE  / 10 | app_tws_ibrt_audio_sync_pid_setup mode:1
+[20:38:34:490]    13618/I/AUDFLG/ 10 | [AUD][DECODER][SYNC] fix diff reset
+[20:38:34:490]    13618/I/AUDFLG/ 10 | [AUD][DECODER][SYNC]reset_data
+[20:38:34:490]    13618/I/NONE  / 10 | get factory_section_p
+[20:38:34:490]    13618/I/NONE  / 10 | get factory_section_p
+[20:38:34:490]    13618/D/IBRTAP/U-U/ 10 | [IBRT_TRACE]app_ibrt_conn_mobile_sm_timer_init
+[20:38:34:490]    13618/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_core_v2: Init exchange profile timer
+[20:38:34:490]    13619/D/IBRTAP/U-U/ 10 | [IBRT_TRACE]app_ibrt_conn_mobile_sm_timer_init
+[20:38:34:490]    13619/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_core_v2: Init exchange profile timer
+[20:38:34:490]    13619/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]TWS UI Role: [TWS_UI_UNKNOWN] -> [TWS_UI_MASTER]
+[20:38:34:490]    13619/I/NONE  /U-M/ 10 | TWS-STATE:DISCONNECTED EVENT=ENTRY
+[20:38:34:490]    13619/I/NONE  /U-M/ 10 | TWS-STATE:DISCONNECTED EVENT=START
+[20:38:34:490]    13619/I/NONE  /U-M/ 10 | get factory_section_p
+[20:38:34:490]    13619/I/NONE  /U-M/ 10 | get factory_section_p
+[20:38:34:490]    13619/I/IBRTAP/U-M/ 10 | [IBRT_TRACE]TWS UI Role: [TWS_UI_MASTER] -> [TWS_UI_UNKNOWN]
+[20:38:34:490]    13619/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]local_addr
+[20:38:34:490]84 34 33 22 11 11 
+[20:38:34:490]    13619/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]peer_addr
+[20:38:34:490]20 00 00 00 00 00 
+[20:38:34:490]    13619/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]audio_chnl_sel 0
+[20:38:34:490]    13620/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_ui_log:tws bonding failed!!!, pls enter pairing mode firstly!!!
+[20:38:34:490]    13620/I/NONE  /U-U/ 10 | ibrt_link_mgr:nv haven't saved any remote address
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c2f85,record=0x200708d8,_record=0x200707e8,param->attr_count
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=16
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | dev:0x2006f250 initial_credit:3
+[20:38:34:490]    13621/I/BTPRF /U-U/ 10 | sdp_server_add_global_record:add node 0x200707e8 to list, record 0x200707e8, handle 0x100
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c2f85,record=0x200708dd,_record=0x20070800,param->attr_count
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=16
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | dev:0x2006f2c8 initial_credit:3
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | btif_destroy_spp_service i 1 0x2006f714
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c85bf,record=0x200708dd,_record=0x20070800,param->attr_count
+[20:38:34:490]    13621/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=18
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | dev:0x2006f340 initial_credit:1
+[20:38:34:490]    13622/I/BTPRF /U-U/ 10 | sdp_server_add_global_record:add node 0x20070800 to list, record 0x20070800, handle 0x100
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c85bf,record=0x200708e2,_record=0x20070818,param->attr_count
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=18
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | dev:0x2006f3b8 initial_credit:1
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | btif_destroy_spp_service i 2 0x2006f728
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c8f9f,record=0x200708e2,_record=0x20070818,param->attr_count
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=14
+[20:38:34:490]    13622/D/BTPRF /U-U/ 10 | dev:0x2006f430 initial_credit:1
+[20:38:34:490]    13622/I/BTPRF /U-U/ 10 | sdp_server_add_global_record:add node 0x20070818 to list, record 0x20070818, handle 0x100
+[20:38:34:527]    13622/D/BTPRF /U-U/ 10 | btif_sdp_record_setup:ca=0xc0c8f9f,record=0x200708e7,_record=0x20070830,param->attr_count
+[20:38:34:527]    13622/D/BTPRF /U-U/ 10 | _btif_spp_create_channel:local_server_channel=14
+[20:38:34:527]    13622/D/BTPRF /U-U/ 10 | dev:0x2006f4a8 initial_credit:1
+[20:38:34:527]    13623/D/BTPRF /U-U/ 10 | btif_destroy_spp_service i 3 0x2006f73c
+[20:38:34:527]    13623/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_core_v2:app_tws_ibrt_core_reconfig,support max remote link count 2,2
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:update scan event type EXIT_PAIR_MODE
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:box closed and pair mode disabled, disable pscan
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:access mode=0x0,state 0
+[20:38:34:527]
+[20:38:34:527]    13623/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:set_access_mode=0, LR=0xc08a685
+[20:38:34:527]    13623/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:filter access mode=0, current access mode=0
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:update scan event type CLOSE_BOX
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:box closed and pair mode disabled, disable pscan
+[20:38:34:527]    13623/I/NONE  /U-U/ 10 | ibrt_scan_mgr:access mode=0x0,state 0
+[20:38:34:527]
+[20:38:34:527]    13623/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:set_access_mode=0, LR=0xc08a68b
+[20:38:34:527]    13623/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:filter access mode=0, current access mode=0
+[20:38:34:527]    13623/I/BTPRF /U-U/ 10 | set loc bt address status is 1.
+[20:38:34:527]84 34 33 22 11 11 
+[20:38:34:527]    13624/I/NONE  /U-U/ 10 | ibrt_link_mgr:fake open box for evb user,shouldn't use on product!!!
+[20:38:34:527]    13624/I/NONE  /U-U/ 10 | ibrt_scan_mgr:update scan event type OPEN_BOX
+[20:38:34:527]    13624/I/NONE  /U-U/ 10 | ibrt_scan_mgr:update scan interval=512,win=18,type=1
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:set_access_mode=0, LR=0xc06e77b
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:filter access mode=0, current access mode=0
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:set_access_mode=0, LR=0xc06e665
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:filter access mode=0, current access mode=0
+[20:38:34:527]    13624/I/NONE  /U-U/ 10 | ibrt_scan_mgr:access mode=0x2,state 1
+[20:38:34:527]
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:set_access_mode=2, LR=0xc08a6a7
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:btif_me_set_accessible_mode status:02
+[20:38:34:527]    13624/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]entry return directly due to bonding failed
+[20:38:34:527]    13625/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 0f fc 04 00 90 00 00 
+[20:38:34:527]    13625/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 0f fc 00 
+[20:38:34:527]    13625/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 52 0c f1 01 08 09 32 37 30 30 6a 74 78 0f 03 01 00 0e 11 0f 11 0c 11 0b 11 1e 11 03 12 01 05 01 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[20:38:34:527]    13617/I/NONE  /U-U/  1 | 
+[20:38:34:527]
+[20:38:34:527]
+[20:38:34:527]bt_stack_init_done:9
+[20:38:34:527]
+[20:38:34:527]
+[20:38:34:527]
+[20:38:34:527]    13626/I/NONE  /U-U/  1 | app_status_indication_set 0
+[20:38:34:527]    13626/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 52 0c 00 
+[20:38:34:527]    13626/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 45 0c 01 02 
+[20:38:34:527]    13626/I/NONE  /U-U/  1 | app_voice_report_handler 0[POWERON]
+[20:38:34:527]    13627/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 45 0c 00 
+[20:38:34:527]    13627/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 a2 fc 02 01 00 
+[20:38:34:527]    13627/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 a2 fc 00 
+[20:38:34:527]    13627/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 72 fc 07 00 84 34 33 22 11 11 
+[20:38:34:527]    13628/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 72 fc 00 
+[20:38:34:527]    13628/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 47 0c 01 01 
+[20:38:34:527]    13627/I/AUDFLG/U-U/  1 | [MEDIA][PLAYER]push prompt request type 3 devId 0 promptId 0x0
+[20:38:34:527]    13628/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 47 0c 00 
+[20:38:34:527]    13628/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 1c 0c 04 00 02 12 00 
+[20:38:34:527]    13629/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 1c 0c 00 
+[20:38:34:527]    13629/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:527]01 1a 0c 01 02 
+[20:38:34:527]    13629/I/AUDFLG/U-U/  8 | [MEDIA][PLAYER]prompt handler thread gets signal 0x1
+[20:38:34:527]    13629/I/AUDFLG/U-U/  8 | app_audio_manager_sendrequest 0[APP_BT_STREAM_MANAGER_START] 2[MEDIA] d0 aud 24576
+[20:38:34:527]
+[20:38:34:527]    13629/I/AUDFLG/U-U/  8 | app_audio_manager_sendrequest ca 0xc0c2163
+[20:38:34:527]    13629/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:527]04 0e 04 05 1a 0c 00 
+[20:38:34:527]    13629/I/AUDFLG/U-U/  6 | app_audio_manager_handle_process 0[APP_BT_STREAM_MANAGER_START] 2[MEDIA] d0 aud 6000
+[20:38:34:557]    13629/I/AUDFLG/U-U/  6 | Add active stream 2 for device 0
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | STREAM MANAGE bt_media_start stream 0x2[MEDIA] device 0x0 media_id 0x6000
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | bt_media_start curr_active_media 0[N/A] media_active (d0 2[MEDIA]) (d1 0[N/A]) 
+[20:38:34:557]
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | curr_active_media is set to 0x2[MEDIA]
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | app_audio_sendrequest_param ca=0xc0c71c7 type 128[BACK_AUDIO] op 0[OPEN] aud 24576
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | =======>APP_BT_SETTING_OPEN,##before status_id: 0x80[BACK_AUDIO], aud_id: 0x6000, len = 0
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | app_audio_list_append id 0x80[BACK_AUDIO]
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | app_audio_list_append id 0x80[BACK_AUDIO] status 0 len 1 ret 1 aud_id 0x200a7a20
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | [STRM_PLAYER][OPEN] prev:0x0[] freq:0
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | [STRM_PLAYER][OPEN] cur:0x80[BACK_AUDIO] freq:0
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | <3>
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | [MEDIA][PLAYER]Audio prompt stream state Idle, to start it
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | User 17 require sysfreq 6
+[20:38:34:557]    13630/I/AUDFLG/U-U/  6 | [MEDIA][PLAYER]aud_id:6000 [POWER_ON] aud_pram:6000 chnlsel:24576
+[20:38:34:557]    13630/I/NONE  /U-U/  6 | init the app media mem pool size 9216.
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Get media buf, current free 9216 to allocate 32
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Allocate 32, now used 32 left 9184
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Get media buf, current free 9184 to allocate 1024
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Allocate 1024, now used 1056 left 8160
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Get media buf, current free 8160 to allocate 3004
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Allocate 3004, now used 4060 left 5156
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Get media buf, current free 5156 to allocate 512
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Allocate 512, now used 4572 left 4644
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Get media buf, current free 4644 to allocate 4096
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | Allocate 4096, now used 8668 left 548
+[20:38:34:557]    13631/I/AUDFLG/U-U/  6 | [MEDIA][PLAYER][app_play_audio_onoff]: sample rate: 16000, bits: 24, channel number: 2, d
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | [af_stream_open] id = 3, stream = 0
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | codec2_int_open: user_map=0x0
+[20:38:34:557]    13631/I/NONE  /U-U/  6 | codec_hw_open
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | CALIB_ANA_DC: L=0x2c00, R=0x0, gain=0x10
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | CALIB_DIG_DC: L=0xffffd2cf, R=0x0
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | codec2_int_stream_open: stream=2
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | [af_stream_setup] id = 3, stream = 0
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | codec2_int_stream_setup: stream=2
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | [sample_rate]old=0 new=16000
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | [bits]old=0 new=24
+[20:38:34:557]    13633/I/NONE  /U-U/  6 | [channel_num]old=0 new=2
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [channel_map]old=0x0 new=0x1
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [use_dma]old=0 new=1
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [vol]old=0 new=12 chan_vol_set=0
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [io_path]old=0 new=11
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [codec2_int_stream_setup]stream=2 set_flag=0xff
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | hal_codec_dac2_setup_stream:id=0,cfg->set_flag=ff
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | 
+[20:38:34:557]!!! WARNING:hal_codec_dac2_setup_stream: Bad play stereo ch map: 0x1
+[20:38:34:557]
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | update sampbits: 24
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | update samprate: 16000
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [hal_codec_dac2_setup_stream] playback sample_rate=16000
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | update vol: 12, sdac_volume: -19
+[20:38:34:557]    13634/I/IBRTAP/U-U/  6 | [IBRT_TRACE]tws not connected.
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | [af_stream_start] id = 3, stream = 0
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | codec2_int_stream_start: stream=2
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | hal_codec_dac2_start_interface: id=0, dma=1
+[20:38:34:557]    13634/I/NONE  /U-U/  6 | codec_hw_start: stream=0
+[20:38:34:557]    13635/I/BTPRF /U-U/ 10 | me report ACCESSIBLE_CHANGE
+[20:38:34:557]    13635/I/BTAPP /U-U/ 10 | [BT][APP][BTEVENT] evt = 10
+[20:38:34:584]    13635/I/BTAPP /U-U/ 10 | [BT][APP][BTEVENT] ACCESSIBLE_CHANGE evt:10 errCode:0x0 aMode=0x2
+[20:38:34:584]    13635/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]app_tws_ibrt_global_callback evt=0xa error code 0x0
+[20:38:34:584]    13635/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_scan_mgr:accessible_change dest:255 curr:2 err:00
+[20:38:34:584]    13635/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_conn_global_handler link =0x0,evt=0xa error code 0x2
+[20:38:34:584]    13635/I/IBRTAP/U-U/ 10 | [IBRT_TRACE]ibrt_core_v2:link_type=0, evtcode=10, status=0x2
+[20:38:34:584]    13636/I/NONE  /U-U/ 13 | ibrt_link_mgr:evt_dispatch,type=16,evt=ACCESS_MODE_CHANGED
+[20:38:34:584]    13636/I/IBRTAP/U-U/ 13 | [IBRT_TRACE]Access mode changed to 2
+[20:38:34:584]    13636/I/NONE  /U-U/  1 | power on case:0
+[20:38:34:584]
+[20:38:34:584]    13636/I/NONE  /U-U/  1 | app_status_indication_set 1
+[20:38:34:584]    13636/I/BTAPP /U-U/ 10 | [BT][APP]func:0x0c0975cd,param0:0x00000001, param1:0x00000000
+[20:38:34:584]    13637/I/NONE  /U-U/ 10 | [TX]:
+[20:38:34:584]01 77 fc 08 01 01 d0 07 32 00 00 00 
+[20:38:34:584]    13637/I/NONE  /U-U/  1 | app_status_indication_set 2
+[20:38:34:584]    13637/I/NONE  /U-U/ 11 | [RX]:
+[20:38:34:584]04 0e 04 05 77 fc 00 
+[20:38:34:584]    13637/I/IBRTAP/U-U/  1 | [IBRT_TRACE]app_tws_ibrt_raw_ui_test_key_init
+[20:38:34:584]    13643/I/NONE  /U-U/  6 | User 17 require sysfreq 6
+[20:38:34:584]    13643/I/AUDFLG/U-U/  6 | [STRM_PLAYER][OPEN] updated to  0x80[BACK_AUDIO]
+[20:38:34:584]    13643/I/NONE  /U-U/  6 | =======>APP_BT_SETTING_OPEN, ##after status_id: 0x80[BACK_AUDIO], len = 1
+[20:38:34:584]    13643/I/NONE  /U-U/  6 | mod_handler[1] ret=-1
+[20:38:34:584]
+[20:38:34:652]    13837/I/NONE  /U-U/  3 | gpadc_data_bits:16
+[20:38:34:652]    13838/I/NONE  /U-U/42E | hal_gpadc_adc2volt_calib efuse:0/0 LV=14439, HV=19310, Slope:0 Intcpt:58
+[20:38:34:652]    13838/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:34:652]
+[20:38:34:859]    14038/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:34:859]
+[20:38:35:070]    14238/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:35:070]
+[20:38:35:274]    14438/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:35:274]
+[20:38:35:482]    14638/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:35:482]
+[20:38:35:690]    14838/I/NONE  /U-U/42E | current temperature:0x0 | 25
+[20:38:35:690]
+[20:38:35:869]    14990/I/AUDFLG/U-U/  7 | [MEDIA][PLAYER]cache underflow
+[20:38:35:869]    14990/I/AUDFLG/U-U/  7 | [MEDIA][PLAYER]media_sbc_decoder underflow len:512
+[20:38:35:869] 
+[20:38:35:869]    14990/I/AUDFLG/U-U/  7 | [MEDIA][PLAYER][app_play_single_sbc_more_data]-->need close, length:7120 len:512 l:256
+[20:38:35:869]    15020/I/NONE  /U-U/  7 | app_audio_sendrequest_param ca=0xc0c270b type 128[BACK_AUDIO] op 1[CLOSE] aud 0
+[20:38:35:921]    15020/I/AUDFLG/U-U/  7 | clear media 0x2 curr media 0x0
+[20:38:35:921]    15020/I/AUDFLG/U-U/  7 | bt_media_clear_media_type 0x2 active_now 0x2 id 0
+[20:38:35:921]    15020/I/AUDFLG/U-U/  7 | bt_media_clear_media_type 0x2 active_now 0x0 id 1
+[20:38:35:921]    15020/I/AUDFLG/U-U/  7 | [MEDIA][PLAYER][REPORT STOP]
+[20:38:35:921]    15020/I/NONE  /U-U/  6 | =======>APP_BT_SETTING_CLOSE, current id: 0x80[BACK_AUDIO]
+[20:38:35:921]    15020/I/AUDFLG/U-U/  6 | [STRM_PLAYER][CLOSE] gStreamplayer: 0x80[BACK_AUDIO]
+[20:38:35:921]    15020/I/AUDFLG/U-U/  6 | [STRM_PLAYER][CLOSE] player:0x80[BACK_AUDIO]
+[20:38:35:921]    15020/I/AUDFLG/U-U/  6 | [MEDIA][PLAYER]Audio prompt stream state Running, to stop it
+[20:38:35:921]    15020/I/NONE  /U-U/  6 | User 17 require sysfreq 6
+[20:38:35:921]    15020/I/NONE  /U-U/  6 | [af_stream_stop] id = 3, stream = 0
+[20:38:35:921]    15021/I/NONE  /U-U/  6 | codec2_int_stream_stop: stream=2
+[20:38:35:921]    15021/I/NONE  /U-U/  6 | hal_codec_dac2_stop_interface: id=0
+[20:38:35:921]    15023/I/NONE  /U-U/  6 | codec_hw_stop: stream=0
+[20:38:35:921]    15027/I/NONE  /U-U/  6 | [af_stream_close] id = 3, stream = 0
+[20:38:35:921]    15027/I/NONE  /U-U/  6 | codec2_int_stream_close: stream=2
+[20:38:35:921]    15027/I/NONE  /U-U/  6 | codec2_int_stream_restore_chan_vol: stream=2
+[20:38:35:921]    15027/I/NONE  /U-U/  6 | codec2_int_close: type=0 user_map=0x8
+[20:38:35:921]    15027/I/NONE  /U-U/  6 | codec_hw_close: type=0
+[20:38:35:921]    15032/I/NONE  /U-U/  6 | [btdrv_reg_op_sync_clr_trigger] 0xd0220c08=100
+[20:38:35:921]    15032/I/NONE  /U-U/  6 | [btdrv_sw_trig_disable_set] 0xd0220d08=0x0,0xd0220d0c=0x0
+[20:38:35:921]
+[20:38:35:921]    15032/I/IBRTAP/U-U/  6 | [IBRT_TRACE][app_ibrt_voice_report_set_trigger_time] trigger clear
+[20:38:35:921]    15032/I/NONE  /U-U/  6 | User 17 require sysfreq 0
+[20:38:35:921]    15032/I/AUDFLG/U-U/  6 | [STRM_PLAYER][CLOSE] updated to 0x0[]
+[20:38:35:921]    15032/I/NONE  /U-U/  6 | =======>APP_BT_SETTING_CLOSE, list: 1
+[20:38:35:921]    15032/I/NONE  /U-U/  6 | =======>APP_BT_SETTING_CLOSE MEDIA
+[20:38:35:921]    15032/I/AUDFLG/U-U/  6 | bt_media_stop stream 0x2[MEDIA] device 0x0 media_id 0x0
+[20:38:35:921]    15032/I/AUDFLG/U-U/  6 | bt_media_stop curr_active_media 0[N/A] media_active (d0 0[N/A]) (d1 0[N/A]) 
+[20:38:35:921]
+[20:38:35:921]    15033/I/AUDFLG/U-U/  6 | bt_media_clear_media_type 0x2 active_now 0x0 id 0
+[20:38:35:921]    15033/I/AUDFLG/U-U/  6 | curr_active_media is set to 0x0[N/A]
+[20:38:35:921]    15033/I/AUDFLG/U-U/  6 | bt_media_stop end curr_active_media 0[N/A] media_active (d0 0[N/A]) (d1 0[N/A]) 
+[20:38:35:921]
+[20:38:35:921]    15033/I/AUDFLG/U-U/  8 | [MEDIA][PLAYER]prompt handler thread gets signal 0x4
+[20:38:35:921]    15033/I/NONE  /U-U/  6 | pre audio list len 1 close_id 0x80[BACK_AUDIO], pos:0
+[20:38:35:921]    15033/I/NONE  /U-U/  6 | Aud list, ID:0x80[BACK_AUDIO]
+[20:38:35:921]    15033/I/NONE  /U-U/  6 | =======>app_audio_handle_free playback , aud_id: 0x6000, type = 0x0
+[20:38:35:921]    15034/I/NONE  /U-U/  6 | Updated audio list len = 0 ret 0 data 0x200a7a20
+[20:38:35:921]    15034/I/NONE  /U-U/  6 | mod_handler[1] ret=-1
+[20:38:35:921]
+[20:38:38:572]    17569/I/NONE  /U-U/  3 | app_temperature_timer_handler
+[20:38:38:572]
